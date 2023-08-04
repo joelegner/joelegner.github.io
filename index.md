@@ -8,5 +8,7 @@ author: Joe Legner
 
 This is the main page of my website. Welcome!
 
-- [My Setup](my-setup.html)
 - [My Background](my-background.html)
+- [Music](music.html)
+- [My Setup](my-setup.html)
+- [Writing](writing.html)
