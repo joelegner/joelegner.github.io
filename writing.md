@@ -16,4 +16,6 @@ author: Joe Legner
 - [Bryan A. Garner](https://en.wikipedia.org/wiki/Bryan_A._Garner)
 - [Steven Pinker](https://en.wikipedia.org/wiki/Steven_Pinker)
 
+![Bryan A. Garner](images/bryan-a-garner.png){ width=250px }
+
 Return to [Index](index.html)

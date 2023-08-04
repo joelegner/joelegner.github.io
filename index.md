@@ -12,3 +12,5 @@ This is the main page of my website. Welcome!
 - [Music](music.html)
 - [My Setup](my-setup.html)
 - [Writing](writing.html)
+
+![My Wife and Me](images/Joe-and-julie-happy.png){ width=400px }
