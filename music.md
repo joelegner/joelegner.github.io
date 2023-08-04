@@ -35,3 +35,5 @@ I picked up my first guitar in 1992 at age 19. I'm a tolerable guitar player for
 My older brother was a drummer. He passed away in 1999. He was 7 years older than me and a role model as long as he was alive. We had a similar sense of humor and outlook on life in many ways. 
 
 Over the years, I noodled with the drums enough to have a bit of ability when I decided in 2023 to become a drummer. The impetus was this: playing drums was my best chance to play music with my wife on cruise ships. She is a piano player. To learn piano was too daunting. But with my history of playing drums, my ear for how songs go in my head, and a little bit of skill from my history with my brother, I took to the drums. I bought a white Pearl drum kit and built a pretty unique looking Gibraltar rack system for it. 
+
+Return to [Index](index.html)
