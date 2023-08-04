@@ -265,6 +265,31 @@ class="sourceCode zsh"><code class="sourceCode zsh"><span id="cb1-1"><a href="#c
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">exit</span> 1</span>
 <span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>  <span class="cf">fi</span></span>
 <span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="cf">done</span></span></code></pre></div>
+<p>The script is rather fast, at least now with very few input
+files.</p>
+<pre><code>./make.sh  0.12s user 0.08s system 73% cpu 0.278 total</code></pre>
+<h1 id="add.sh-script"><code>add.sh</code> Script</h1>
+<p>ChatGPT helped me write a script that makes it easy to add a page to
+my digital garden. I named the script <code>add.sh</code>. Here is what
+it does:</p>
+<ol type="1">
+<li>Prompts for page title (assumes Title Case with spaces)</li>
+<li>Converts page title to lowercase and replace spaces with
+hyphens</li>
+<li>Creates a new markdown file some basic Yaml configuration needed by
+Pandoc</li>
+<li>Appends a link to the new file to <code>index.md</code></li>
+</ol>
+<p>It works perfectly. Here is a usage example:</p>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode zsh"><code class="sourceCode zsh"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> ./add.sh</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="ex">Enter</span> the page title <span class="op">(Title Case with spaces</span>): My Background</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>Page <span class="st">&#39;My Background&#39;</span> has been created with the filename <span class="st">&#39;my-background.md&#39;</span> and added to index.md.</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>$</span></code></pre></div>
+<p>The listing of the script might be of interest to somebody.</p>
+<p><a
+href="https://github.com/joelegner/joelegner.github.io/blob/main/add.sh"
+class="uri">https://github.com/joelegner/joelegner.github.io/blob/main/add.sh</a></p>
 <p>Return to <a href="index.html">Index</a></p>
 </body>
 </html>
