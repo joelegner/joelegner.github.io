@@ -8,6 +8,4 @@ author: Joe Legner
 
 This is the main page of my website. Welcome!
 
-- [Subpage 1](subpage1.html)
-- [Subpage 2](subpage2.html)
-- [Subpage 3](subpage3.html)
+- [My Setup](my-setup.html)
