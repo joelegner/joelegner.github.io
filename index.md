@@ -1,6 +1,6 @@
 ---
 title: Joe Legner's Digital Garden
-date: August 4, 2023
+date: August 04, 2023
 author: Joe Legner
 ---
 
@@ -9,3 +9,4 @@ author: Joe Legner
 This is the main page of my website. Welcome!
 
 - [My Setup](my-setup.html)
+- [My Background](my-background.html)

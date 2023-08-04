@@ -1,6 +1,6 @@
 ---
 title: My Setup
-date: August 4, 2023
+date: August 04, 2023
 author: Joe Legner
 ---
 
