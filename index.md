@@ -4,13 +4,14 @@ date: August 04, 2023
 author: Joe Legner
 ---
 
+![My Wife and Me](images/Joe-and-julie-happy.png){ width=400px }
+
 # List of Pages
 
 This is the main page of my website. Welcome!
 
-- [My Background](my-background.html)
+- [Background](background.html)
 - [Music](music.html)
-- [My Setup](my-setup.html)
+- [Setup](setup.html)
 - [Writing](writing.html)
-
-![My Wife and Me](images/Joe-and-julie-happy.png){ width=400px }
+- [Your Perfect Right](your-perfect-right.html)
