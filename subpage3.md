@@ -8,4 +8,4 @@ author: Joe Legner
 
 This is the content of subpage 3.
 
-- [Index](index.html)
+Return to [Index](index.html)
