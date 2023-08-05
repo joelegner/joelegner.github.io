@@ -1,6 +1,6 @@
 ---
 title: 🌱 Digital Garden
-date: August 04, 2023
+date: August 05, 2023
 author: Joe Legner
 ---
 
