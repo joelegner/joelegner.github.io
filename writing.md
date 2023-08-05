@@ -27,7 +27,7 @@ Bryan is a handsome devil, no?
 
 Step away from the work after you write it. Your brain will toss it around and add richness to the meaning. Meanwhile you will forget the exact wording. You will remember the essence, not the specifics. When you go back and start reading it to begin the revising-editing cycle, you will spot things to change. You will have fresh eyes.
 
-# Revise and edit it until you are satisfied.
+# Consider revising and editing the way I do.
 
 I like to think of revising as moving around big chunks. It is about overall structure. You might worry about the logical structure. If you follow something like the Minto Pyramid Principle, you will examine the document to see if it follows the pyramid structure. You may want to move a sentence up or down. You may want to split up a long sentence. I call all this "revising." I think it's from one of my writing mentors, but I cannot remember which one right now.
 
