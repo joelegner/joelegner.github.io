@@ -6,7 +6,16 @@ author: Joe Legner
 
 ![My face tells the story.](images/Joe-and-julie-happy.png){ width=400px }
 
-# List of Pages
+# Here are the pages on my site.
+
+- [Index](index.html)
+- [Background](background.html)
+- [Music](music.html)
+- [Setup](setup.html)
+- [Writing](writing.html)
+- [Your Perfect Right](your-perfect-right.html)
+
+# Welcome to my website. 
 
 This is the main page of my website. Welcome!
 
@@ -18,10 +27,4 @@ OK, so I'm trying to develop a great worldview. I fear luck has more to do with 
 
 I am one lucky man. I am so, damn, lucky. So maybe writing a website is meaningless, because my happiness is just luck. I doubt that. I think having this set of beliefs makes life more difficult and having that set of beliefs makes life easier. The more of those beliefs that make life easier the better. I believe that is the rational conclusion to draw. 
 
-But if it is meaningless, no worries. Writing it gives me something to do. I just learned Kurt Vonnegut said something like, "We are here on Earth to fart around." My fantasy is that something here will help other people, maybe dare I dream _many_ other people. Wouldn't that be cool? That would be cool. Even if that never happens, it was fun making it. Anyway, here are the pages I have so far:
-
-- [Background](background.html)
-- [Music](music.html)
-- [Setup](setup.html)
-- [Writing](writing.html)
-- [Your Perfect Right](your-perfect-right.html)
+But if it is meaningless, no worries. Writing it gives me something to do. I just learned Kurt Vonnegut said something like, "We are here on Earth to fart around." My fantasy is that something here will help other people, maybe dare I dream _many_ other people. Wouldn't that be cool? That would be cool. Even if that never happens, it was fun making it.
