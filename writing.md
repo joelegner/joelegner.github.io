@@ -45,7 +45,7 @@ Shorter words I think are easier to understand by the reader. Consider these thr
 
 - The four individuals working on site attempted to insert an aluminum fencepost into a cylindrical excavation when they experienced the sensation of electric shock.
 - The four workers felt an electric shock while installing a febcepost in the ground.
-- Four workers felt a shock while putting up a fencepost. 
+- Four workers got shocked putting up a fencepost. 
 
 Do you like one? I like the last one best. That's my fave. See? Short. Sentences.
 
