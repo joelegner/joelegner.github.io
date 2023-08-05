@@ -4,7 +4,7 @@ date: August 04, 2023
 author: Joe Legner
 ---
 
-![Happiness -- my beautiful girl and my ugly hat](images/Joe-and-julie-happy.png){ width=400px }
+![Happiness](images/Joe-and-julie-happy.png){ width=400px }
 
 # List of Pages
 
