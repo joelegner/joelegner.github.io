@@ -8,8 +8,9 @@ author: Joe Legner
 
 # Here are the pages on my site.
 
-- [Index](index.html)
 - [Background](background.html)
+- [Formal Axiology](formal-axiology.html)
+- [Index](index.html)
 - [Music](music.html)
 - [Setup](setup.html)
 - [Writing](writing.html)
