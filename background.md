@@ -4,7 +4,7 @@ date: August 04, 2023
 author: Joe Legner
 ---
 
-If you read this page, you will know a little more about me that might add context -- might add color -- to the other pages. You don't have to read it. It's okay to navigate back to the index. Here, I will even include a convenient link for that purpose. Bye-bye. It's okay. 
+If you read this page, you will know a little more about me that might add some context as you read the other pages. You don't have to read it. It's okay to navigate back to the index. Here, I will even include a convenient link for that purpose. Bye-bye. It's okay. 
 
 [Link to Index](index.html)
 
