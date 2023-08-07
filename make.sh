@@ -6,7 +6,7 @@ for sourcefile in *.md; do
   if [[ -e "$sourcefile" ]]; then
     # Step 2: Convert each file to HTML using Pandoc
     echo "$sourcefile -> ${sourcefile%.md}.html"
-    pandoc -s -o "${sourcefile%.md}.html" --embed-resources --standalone --css pandoc.css "$sourcefile"
+    pandoc -s -o "${sourcefile%.md}.html" --embed-resources --standalone --css styling.css "$sourcefile"
   else
     echo "No files found matching the pattern '*.md'"
     exit 1
