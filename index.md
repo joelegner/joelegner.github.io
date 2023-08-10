@@ -1,10 +1,18 @@
 ---
 title: 🌱 Digital Garden
-date: August 05, 2023
+date: August 8, 2023
 author: Joe Legner
 ---
 
 ![My face tells the story.](images/Joe-and-julie-happy.png){ width=400px }
+
+_Why should you read this website?_
+
+_Who created this website?_
+
+_Why does this website exist?_
+
+_How does one engage with the material here?_
 
 # Here are the pages on my site.
 
