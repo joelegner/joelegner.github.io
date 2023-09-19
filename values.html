@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang xml:lang>
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Joe Legner" />
+  <meta name="dcterms.date" content="2023-09-19" />
+  <title>Values</title>
+  <style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+
+ul.task-list[class]{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+font-size: inherit;
+width: 0.8em;
+margin: 0 0.8em 0.2em -1.6em;
+vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+  <style type="text/css">html {
+color: #555;
+margin: auto;
+padding: 10px;
+max-width: 42em;
+}
+body {
+font-family: Georgia, serif;
+font-size: 13pt;
+line-height: 1.4;
+}
+#paypal {
+float: right;
+font-size: 12pt;
+font-family: Arial, Verdana, sans-serif;
+opacity: 0.2;
+}
+#github-sponsors {
+float: right;
+margin-left: 1em;
+font-size: 10pt;
+font-family: Arial, Verdana, sans-serif;
+border-radius: 12px;
+background-color: cyan;
+width: 6em;
+height: 1.7em;
+line-height: 1.7em;
+text-align: center;
+font-weight: bold;
+opacity: 0.2;
+}
+#github-sponsors a:hover {
+text-decoration: none;
+}
+#ukraine {
+float: right;
+margin-left: 1em;
+font-size: 10pt;
+font-family: Arial, Verdana, sans-serif;
+border-radius: 12px;
+color: #005BBB;
+background-color: #FFD500;
+width: 12em;
+height: 1.7em;
+line-height: 1.7em;
+text-align: center;
+font-weight: bold;
+}
+#ukraine a:hover {
+text-decoration: none;
+}
+.btn {
+font-family: Arial, Verdana, sans-serif;
+background-color: #337ab7;
+color: white;
+font-weight: bold;
+font-size: 1em;
+padding: 0.5em 1.5em;
+white-space: normal;
+border-radius: 12px;
+}
+.extension-checkbox {
+float: right;
+opacity: 0.5;
+cursor: help;
+}
+.container {
+display: flex;
+}
+#sidebar {
+order: 2;
+position: sticky;
+top: 2rem;
+max-width: 20em;
+min-width: 12em;
+align-self: baseline;
+background: transparent;
+}
+#toc {
+margin-top: 1em;
+margin-left: 2rem;
+height: 80vh;
+overflow-y: scroll;
+font-size: 11pt;
+}
+#toc code {
+font-size: 10pt;
+}
+div#toc li {
+list-style:none;
+}
+#toc > ul {
+margin-left: 0;
+margin-top: 4pt;
+}
+#toc li {
+padding-bottom: 3pt;
+padding-top: 3pt;
+}
+#toc ul {
+padding-left: 1em;
+}
+#toc ul > li {
+position: relative;
+}
+#toc .toggle {
+cursor: pointer;
+position: absolute;
+left: -28px;
+top: -2px;
+padding: 2px 10px;
+color: #337ab7;
+}
+#toc .toggle:hover {
+opacity: 0.5;
+}
+#tocbtn {
+width: 100%;
+text-align: right;
+font-size: 11pt;
+padding-left: 1em;
+}
+main {
+position: relative; 
+order: 1;
+max-width: 48em;
+min-width: 300px;
+padding-bottom: 60em; 
+}
+#input-search {
+font-family: Arial, Verdana, sans-serif;
+font-weight: normal;
+font-size: 13pt;
+border-radius: 24px;
+}
+#input-search {
+border-style: none;
+border: 1px solid grey;
+}
+#submit-search {
+border-style: none;
+background-color: #337ab7;
+color: white;
+font-family: Arial, Verdana, sans-serif;
+font-size: 12pt;
+font-weight: normal;
+border-radius: 6px;
+padding: 4px;
+}
+.modal {
+display: none;
+}
+.modal.scrollable {
+height: 32em;
+overflow-y: scroll;
+}
+.modal.show {
+display: block;
+position: absolute;
+z-index: 1;
+width: 90%;
+margin: auto;
+background: white;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.modal-header {
+background-color: cyan;
+margin: 0;
+padding: 4pt 0pt 4pt 0pt;
+font-size: 13pt;
+font-weight: 600;
+}
+.modal-title {
+}
+.modal-body {
+padding: 6pt;
+}
+header span {
+font-family: Arial, Verdana, sans-serif;
+}
+header .big {
+font-size: 36pt;
+border: none;
+}
+header .small {
+font-size: 22pt;
+color: gray;
+}
+h1.title {
+font-size: 24pt;
+}
+h1, h2, h3 {
+font-weight: normal;
+padding-bottom: 3px;
+border-bottom: 1px solid black;
+}
+h4 { font-size: 14pt;
+font-weight: bold;
+margin-top: 1em;
+}
+h1 {
+font-size: 20pt;
+}
+h2 {
+font-size: 18pt;
+}
+h3 {
+font-size: 16pt;
+}
+code{
+white-space: pre-wrap;
+font-size: 11pt;
+background-color: transparent;
+}
+span.nowrap code { white-space: nowrap; }
+a.option code { color: inherit; }
+pre{ font-size: 11pt; }
+.smallcaps{font-variant: small-caps;}
+.line-block{white-space: pre-line;}
+.column{display: inline-block;}
+q { quotes: "“" "”" "‘" "’"; }
+a {
+color: #337ab7;
+text-decoration: none;
+}
+nav {
+margin-top: 1em;
+font-family: Arial, Verdana, sans-serif;
+font-weight: 600;
+}
+nav .dropdown-toggle:before {
+content: "▼";
+}
+nav .dropdown-menu {
+display: none;
+position: absolute;
+padding: 6pt;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+background: white;
+}
+nav li {
+border-radius: 16px;
+padding: 6px;
+}
+nav a {
+padding: 6pt 12pt 6pt 12pt;
+font-size: 13pt;
+font-weight: 600;
+color: #337ab7;
+text-decoration: none;
+}
+.nav-item:hover {
+background-color: #bbb;
+}
+nav .show {
+display: inline-block;
+}
+nav ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+nav > ul {
+display: inline-flex;
+flex-wrap: wrap;
+}
+.card-header {
+background-color: #eee;
+border-radius: 24px 24px 24px 24px;
+padding: 3pt 6pt 3pt 6pt;
+}
+.show .card-header {
+border-radius: 24px 24px 0px 0px;
+}
+.card {
+padding: 0pt;
+margin: 6pt;
+border: 1px solid grey;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+border-radius: 24px;
+}
+.card-body {
+padding: 6pt;
+display: none;
+}
+.show .card-body {
+display: block;
+}
+table {
+margin-top: 1em;
+margin-bottom: 1em;
+}
+table th {
+border-bottom: 1px solid black;
+}
+th, td {
+padding-right: 10pt;
+vertical-align: top;
+}
+.twocol {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.col {
+min-width: 12em;
+max-width: 22em;
+}
+ul ul {
+margin-bottom: 0.5em
+}
+ul { list-style-type: square; }
+dt { font-weight: bold; margin-bottom: .1em; }
+dd {
+margin-left: 2em;
+}
+hr {
+height: 1px;
+color: #aaa;
+background-color: #aaa;
+border: 0;
+margin: .2em 0 .2em 0;
+}
+blockquote {
+padding: 0 1.6em;
+color: #666;
+}
+footer {
+padding: 1em;
+color: #888;
+text-align: center;
+font-size: 12pt;
+}
+
+.anchor:before {
+
+content: '🔗\FE0E';
+display: inline-block;
+font-size: 14pt;
+left: -1.75em;
+line-height: 1.66;
+opacity: 0.2;
+padding-right: 0.5em;
+position: absolute;
+}
+.anchor:hover {
+text-decoration: none;
+}
+h1:hover > .anchor::before,
+h2:hover > .anchor::before,
+h3:hover > .anchor::before {
+opacity: 1;
+}
+
+
+@media print {
+body {
+width:100% !important;
+margin:0 !important;
+padding:0 !important;
+line-height: 1.4;
+word-spacing:1.1pt;
+letter-spacing:0.2pt;
+font-family: "Times New Roman", serif;
+color: #000;
+background: none;
+}
+
+h1,h2,h3,h4,h5,h6 { font-family: Helvetica, Arial, sans-serif; }
+h1{font-size:19pt;}
+h2{font-size:17pt;}
+h3{font-size:15pt;}
+h4,h5,h6{font-size:12pt;}
+pre, code { font: 10pt Courier, monospace; }
+blockquote { margin: 1.3em; padding: 1em; font-size: 10pt; }
+hr { background-color: #ccc; }
+
+img { float: left; margin: 1em 1.5em 1.5em 0; }
+a img { border: none; }
+
+a:link, a:visited { background: transparent; font-weight: normal; text-decoration: underline; color:#333; }
+a:link[href^="http://"]:after, a[href^="http://"]:visited:after { content: " (" attr(href) ")"; font-size: 90%; }
+a[href^="http://"] {color:#000; }
+
+table { margin: 1px; text-align:left; }
+th { font-weight: bold; }
+th,td { padding: 4px 10px 4px 0; }
+tfoot { font-style: italic; }
+caption { background: #fff; margin-bottom:2em; text-align:left; }
+thead {display: table-header-group;}
+tr {page-break-inside: avoid;}
+
+.extension-checkbox { display: none; }
+}
+</style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Values</h1>
+<p class="author">Joe Legner</p>
+<p class="date">September 19, 2023</p>
+</header>
+<p>This is a pretty good list of things I value. When I use the word
+<em>value</em> here, I mean desired quality of ongoing action. Values
+are not goals. They involve continuous behavior. Being loved is not a
+value. It is a goal. You can check it off your list when it happens.
+<em>Kindness</em> is a value. You can never check it off the list. You
+can behave <em>with</em> kindness. Kindness is a quality of action, so
+in my system it can be called a value. Here are the rest:</p>
+<p>Each value is an “ongoing action” that cannot be completed.</p>
+<p>Each value is declared, not discovered.</p>
+<p>Each value is global to me and my life as a whole. Don’t make it too
+specific.</p>
+<p>The values are listed alphabetically, not ranked by importance.
+Importance of values changes with situation. Situation can be thought of
+as a snapshot of facts at a moment.</p>
+<p>Each value includes a quality, which is a value judgment about
+it.</p>
+<ul>
+<li>Acceptance: to be open to and accepting of myself, others, and
+life.</li>
+<li>Adventure: to be adventurous; to actively seek, create, or explore
+novel or stimulating experiences.</li>
+<li>Assertiveness: to respectfully stand up for my rights and request
+what I want.</li>
+<li>Authenticity: to be authentic, genuine, real; to be true to
+myself.</li>
+<li>Beauty: to appreciate, create, nurture, or cultivate beauty in
+myself, others, and the environment.</li>
+<li>Caring: to be caring towards myself, others, and the
+environment.</li>
+<li>Challenge: to keep challenging myself to grow, learn, and
+improve.</li>
+<li>Compassion: to act with kindness towards those who are
+suffering.</li>
+<li>Connection: to engage fully in whatever I am doing and be fully
+present with others.</li>
+<li>Contribution: to contribute, help, assist, or make a positive
+difference to myself or others.</li>
+<li>Conformity: to be respectful and obedient of rules and
+obligations.</li>
+<li>Cooperation: to be cooperative and collaborative with others.</li>
+<li>Courage: to be courageous or brave; to persist in the face of fear,
+threat, or difficulty.</li>
+<li>Creativity: to be creative or innovative.</li>
+<li>Curiosity: to be curious, open-minded, and interested; to explore
+and discover.</li>
+<li>Encouragement: to encourage and reward behavior that I value in
+myself or others.</li>
+<li>Equality: to treat others as equal to myself.</li>
+<li>Excitement: to seek, create, and engage in activities that are
+exciting, stimulating, or thrilling.</li>
+<li>Fairness: to be fair to myself or others.</li>
+<li>Fitness: to maintain or improve my fitness; to look after my
+physical and mental health and well-being.</li>
+<li>Flexibility: to adjust and adapt readily to changing
+circumstances.</li>
+<li>Freedom: to live freely; to choose how I live and behave, or help
+others do likewise.</li>
+<li>Friendliness: to be friendly, companionable, or agreeable towards
+others.</li>
+<li>Forgiveness: to be forgiving towards myself or others.</li>
+<li>Fun: to be fun-loving; to seek, create, and engage in fun-filled
+activities.</li>
+<li>Generosity: to be generous, sharing, and giving to myself or
+others.</li>
+<li>Gratitude: to be grateful for and appreciative of the positive
+aspects of myself, others, and life.</li>
+<li>Honesty: to be honest, truthful, and sincere with myself and
+others.</li>
+<li>Humor: to see and appreciate the humorous side of life.</li>
+<li>Humility: to be humble or modest; to let my achievements speak for
+themselves.</li>
+<li>Industry: to be industrious, hard-working, and dedicated.</li>
+<li>Independence: to be self-supportive and choose my own way of doing
+things.</li>
+<li>Intimacy: to open up, reveal, and share myself- emotionally or
+physically in my close personal relationships.</li>
+<li>Justice: to uphold justice and fairness.</li>
+<li>Kindness: to be kind, compassionate, considerate, nurturing, or
+caring towards myself or others.</li>
+<li>Love: to act lovingly or affectionately towards myself or
+others.</li>
+<li>Mindfulness: to be conscious of, open to, and curious about my
+here-and-now experience.</li>
+<li>Order: to be orderly and organized.</li>
+<li>Open-mindedness: to think things through, see things from others’
+points of view and weigh evidence fairly.</li>
+<li>Patience: to wait calmly for what I want.</li>
+<li>Persistence: to continue resolutely, despite problems or
+difficulties.</li>
+<li>Pleasure: to create and give pleasure to myself or others.</li>
+<li>Power: to strongly influence or wield authority over others,
+e.g. taking charge, leading, and organizing.</li>
+<li>Reciprocity: to build relationships in which there is a fair balance
+of giving and taking.</li>
+<li>Respect: to be respectful towards myself or others; to be polite,
+considerate and show positive regard.</li>
+<li>Responsibility: to be responsible and accountable for my
+actions.</li>
+<li>Romance: to be romantic; to display and express love or strong
+affection.</li>
+<li>Safety: to secure, protect, or ensure safety of myself or
+others.</li>
+<li>Self-awareness: to be aware of my own thoughts, feelings, and
+actions.</li>
+<li>Self-care: to look after my health and well-being and get my needs
+met.</li>
+<li>Self-development: to keep growing, advancing, or improving in
+knowledge, skills, character or life experience.</li>
+<li>Self-control: to act in accordance with my own ideals.</li>
+<li>Sensuality: to create, explore, and enjoy experiences that stimulate
+the five senses.</li>
+<li>Sexuality: to explore or express my sexuality.</li>
+<li>Spirituality: to connect with things bigger than myself.</li>
+<li>Skillfulness: to continually practice and improve my skills and
+apply myself fully when using them.</li>
+<li>Supportiveness: to be supportive, helpful, encouraging, and
+available to myself or others</li>
+<li>Trust: to be trustworthy; to be loyal, faithful, sincere, and
+reliable.</li>
+</ul>
+</body>
+</html>

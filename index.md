@@ -21,6 +21,7 @@ _How does one engage with the material here?_
 - [Index](index.html)
 - [Music](music.html)
 - [Setup](setup.html)
+- [My Values](values.html)
 - [Writing](writing.html)
 - [Your Perfect Right](your-perfect-right.html)
 
