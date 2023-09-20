@@ -2,7 +2,9 @@
 title: Values
 date: September 19, 2023
 author: Joe Legner
----
+...
+
+[Return to the Index](index.html)
 
 I want to share my values. That way you will understand better where I am coming from and where I am trying to head. But to understand the list, you will need to understand how I use the word value. 
 
@@ -80,3 +82,5 @@ Now that you understand how I am using words like value, goal, and behavior, her
 The values are listed alphabetically, not ranked by importance. Importance of values changes with situation. Situation can be thought of as a snapshot of facts at a moment. 
 
 Each value is an “ongoing action” that cannot be completed. Each value is declared, not discovered. Each value is global to my life. 
+
+[Return to the Index](index.html)

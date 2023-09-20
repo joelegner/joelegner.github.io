@@ -4,6 +4,8 @@ date: August 04, 2023
 author: Joe Legner
 ---
 
+[Return to the Index](index.html)
+
 # Following these steps makes writing a short document easier.
 
 1. The Madman thinks up the list of points to be made.
@@ -49,4 +51,4 @@ Shorter words I think are easier to understand by the reader. Consider these thr
 
 Do you like one? I like the last one best. That's my fave. See? Short. Sentences.
 
-Return to [Index](index.html)
+[Return to the Index](index.html)

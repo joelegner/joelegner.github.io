@@ -18,7 +18,6 @@ _How does one engage with the material here?_
 
 - [Background](background.html)
 - [Formal Axiology](formal-axiology.html)
-- [Index](index.html)
 - [Music](music.html)
 - [Setup](setup.html)
 - [My Values](values.html)

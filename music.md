@@ -4,6 +4,8 @@ date: August 04, 2023
 author: Joe Legner
 ---
 
+[Return to the Index](index.html)
+
 # Bands
 
 My wife and I are musicians. She is the better, but I have just as much fun anyway. I have been in many bands over the years, mostly with her. Here are the names I can remember.
@@ -38,4 +40,4 @@ Over the years, I noodled with the drums enough to have a bit of ability when I 
 
 ![Me Behind Not My Drum Kit](images/Joe-drums-twt.png){ width=400px }
 
-Return to [Index](index.html)
+[Return to the Index](index.html)

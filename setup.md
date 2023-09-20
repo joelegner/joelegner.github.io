@@ -4,6 +4,8 @@ date: August 04, 2023
 author: Joe Legner
 ---
 
+[Return to the Index](index.html)
+
 I cannot think of an empowerment promise for this page. For now I am leaving it -- call it using the precautionary principle. I do not think it should survive a culling if it has no practical value for the reader. But I am not convinced yet that it has no value, so I will wait and see.
 
 # My site is hosted on Github Pages.
@@ -61,4 +63,4 @@ The listing of the script might be of interest to somebody.
 
 <https://github.com/joelegner/joelegner.github.io/blob/main/add.sh>
 
-Return to [Index](index.html)
+[Return to the Index](index.html)

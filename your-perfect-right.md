@@ -4,6 +4,8 @@ date: August 04, 2023
 author: Joe Legner
 ---
 
+[Return to the Index](index.html)
+
 I am reading a book called _Your Perfect Right_, Tenth Edition, by Robert Alberti, PhD and Michael Emmons, PhD. It is about improving your life through skill-building, especially assertiveness training. It is essentially a manifesto about why you should be assertive in life rather than the polar opposites of aggressive and passive. It is truly a "middle way" between aggressiveness and passivity. 
 
 Since they are polar opposite, they slope away from each other. Whatever outcomes are produced by aggressiveness decline the closer you get to passivity. 
@@ -44,3 +46,5 @@ The goal is to summarize the book. Here are some ideas:
 # Summary to Date
 
 TODO: Start here on Saturday, August 5, or whenever the spirit moves you to do it later, or never.
+
+[Return to the Index](index.html)
