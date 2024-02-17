@@ -167,6 +167,70 @@
       vertical-align: middle;
     }
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
   </style>
   
   
@@ -192,39 +256,24 @@ id="toc-take-off-your-shoes-in-the-closet">Take off your shoes in the
 closet</a></li>
 <li><a href="#continuously-develop-the-manual"
 id="toc-continuously-develop-the-manual">Continuously develop The
-Manual</a>
-<ul>
-<li><a href="#understand-the-structure"
-id="toc-understand-the-structure">Understand the structure</a></li>
-<li><a href="#understand-the-format"
-id="toc-understand-the-format">Understand the format</a></li>
-</ul></li>
+Manual</a></li>
 <li><a
 href="#give-priority-to-activities-that-exemplify-your-core-values"
 id="toc-give-priority-to-activities-that-exemplify-your-core-values">Give
 priority to activities that exemplify your core values</a></li>
 <li><a href="#use-goals-to-enrich-your-life"
-id="toc-use-goals-to-enrich-your-life">Use goals to enrich your life</a>
-<ul>
-<li><a href="#follow-these-steps-for-goal-seeking-behavior"
-id="toc-follow-these-steps-for-goal-seeking-behavior">Follow these steps
-for goal-seeking behavior</a></li>
-<li><a href="#use-the-abc-method-of-prioritizing-goals"
-id="toc-use-the-abc-method-of-prioritizing-goals">Use the ABC method of
-prioritizing goals</a></li>
-</ul></li>
+id="toc-use-goals-to-enrich-your-life">Use goals to enrich your
+life</a></li>
 <li><a href="#assess-your-energy-and-act-accordingly"
 id="toc-assess-your-energy-and-act-accordingly">Assess your energy and
 act accordingly</a></li>
-<li><a href="#be-realistic" id="toc-be-realistic">Be realistic</a>
-<ul>
+<li><a href="#be-realistic" id="toc-be-realistic">Be realistic</a></li>
 <li><a href="#act-feel-imagine-think"
 id="toc-act-feel-imagine-think">Act, Feel, Imagine, Think</a></li>
 <li><a href="#be-optimistic" id="toc-be-optimistic">Be
 optimistic</a></li>
 <li><a href="#avoid-perfectionism" id="toc-avoid-perfectionism">Avoid
 perfectionism</a></li>
-</ul></li>
 <li><a href="#spend-time-wisely" id="toc-spend-time-wisely">Spend time
 wisely</a></li>
 <li><a href="#construct-a-worldview-that-works-for-you"
@@ -235,34 +284,26 @@ id="toc-adopt-some-foundational-principles">Adopt some foundational
 principles</a></li>
 <li><a href="#learn-and-practice-communication-skills"
 id="toc-learn-and-practice-communication-skills">Learn and practice
-communication skills</a>
-<ul>
+communication skills</a></li>
 <li><a href="#use-i-messages" id="toc-use-i-messages">Use
-“I-messages”</a></li>
-<li><a href="#when-angry-pause" id="toc-when-angry-pause">When angry,
-pause</a></li>
+I-messages</a></li>
+<li><a href="#pause-before-communicating-when-angry"
+id="toc-pause-before-communicating-when-angry">Pause before
+communicating when angry</a></li>
 <li><a href="#remember-not-communicating-is-communication"
-id="toc-remember-not-communicating-is-communication">Remember
-<em>not</em> communicating is communication</a></li>
-</ul></li>
+id="toc-remember-not-communicating-is-communication">Remember not
+communicating is communication</a></li>
 <li><a href="#put-some-effort-into-mastering-the-english-language"
 id="toc-put-some-effort-into-mastering-the-english-language">Put some
-effort into mastering the English Language</a>
-<ul>
-<li><a href="#use-these-websites-to-generate-your-personal-definitions"
-id="toc-use-these-websites-to-generate-your-personal-definitions">Use
-these websites to generate your personal definitions</a></li>
-</ul></li>
+effort into mastering the English Language</a></li>
+<li><a href="#generate-your-personal-definitions"
+id="toc-generate-your-personal-definitions">Generate your personal
+definitions</a></li>
 <li><a href="#understand-metaphor"
-id="toc-understand-metaphor">Understand metaphor</a>
-<ul>
-<li><a href="#help-others-understand-metaphors"
-id="toc-help-others-understand-metaphors">Help others understand
-metaphors</a></li>
+id="toc-understand-metaphor">Understand metaphor</a></li>
 <li><a href="#read-primary-metaphors.pdf"
 id="toc-read-primary-metaphors.pdf">Read
 <code>Primary Metaphors.pdf</code></a></li>
-</ul></li>
 <li><a href="#structure-your-life"
 id="toc-structure-your-life">Structure your Life</a></li>
 <li><a href="#benefit-from-the-lessons-of-act"
@@ -280,23 +321,23 @@ decide</a></li>
 id="toc-recognize-the-eight-worldly-conditions">Recognize the Eight
 Worldly Conditions</a></li>
 <li><a href="#practice-drums-to-play-better"
-id="toc-practice-drums-to-play-better">Practice drums to play better</a>
-<ul>
+id="toc-practice-drums-to-play-better">Practice drums to play
+better</a></li>
 <li><a href="#use-the-25-75-rule" id="toc-use-the-25-75-rule">Use the
 25-75 rule</a></li>
 <li><a href="#understand-dynamic-range-of-levels"
 id="toc-understand-dynamic-range-of-levels">Understand dynamic range of
 levels</a></li>
-<li><a href="#memorize-these-drum-principles"
-id="toc-memorize-these-drum-principles">Memorize these drum
-principles</a></li>
+<li><a href="#memorize-drum-principles"
+id="toc-memorize-drum-principles">Memorize drum principles</a></li>
 <li><a href="#seek-good-drum-teachers"
 id="toc-seek-good-drum-teachers">Seek good drum teachers</a></li>
 <li><a href="#learn-and-practice-a-subset-of-drum-rudiments"
 id="toc-learn-and-practice-a-subset-of-drum-rudiments">Learn and
 practice a subset of drum rudiments</a></li>
-<li><a href="#warm-up-before-practicing"
-id="toc-warm-up-before-practicing">Warm up before practicing</a></li>
+<li><a href="#warm-up-before-practicing-drums"
+id="toc-warm-up-before-practicing-drums">Warm up before practicing
+drums</a></li>
 <li><a href="#master-single-stroke-rolls"
 id="toc-master-single-stroke-rolls">Master single stroke rolls</a></li>
 <li><a href="#master-double-stroke-rolls"
@@ -304,17 +345,13 @@ id="toc-master-double-stroke-rolls">Master double stroke rolls</a></li>
 <li><a href="#follow-these-planned-drum-practice-sessions"
 id="toc-follow-these-planned-drum-practice-sessions">Follow these
 planned drum practice sessions</a></li>
-</ul></li>
 <li><a href="#maintain-good-finances"
-id="toc-maintain-good-finances">Maintain good finances</a>
-<ul>
+id="toc-maintain-good-finances">Maintain good finances</a></li>
 <li><a href="#re-balance-fidelity-to-8020-split"
 id="toc-re-balance-fidelity-to-8020-split">Re-balance Fidelity to 80/20
 Split</a></li>
-</ul></li>
 <li><a href="#manage-your-time" id="toc-manage-your-time">Manage your
-time</a>
-<ul>
+time</a></li>
 <li><a href="#work-in-10-minute-chunks"
 id="toc-work-in-10-minute-chunks">Work in 10-minute chunks</a></li>
 <li><a href="#filter-competing-activities-with-the-eisenhower-matrix"
@@ -325,15 +362,9 @@ id="toc-cultivate-productive-habits">Cultivate productive
 habits</a></li>
 <li><a href="#use-time-blocking" id="toc-use-time-blocking">Use
 time-blocking</a></li>
-</ul></li>
 <li><a href="#use-visual-studio-code-skillfully"
 id="toc-use-visual-studio-code-skillfully">Use Visual Studio Code
-skillfully</a>
-<ul>
-<li><a href="#find-non-ascii-characters-in-vs-code"
-id="toc-find-non-ascii-characters-in-vs-code">Find non-ASCII characters
-in VS Code</a></li>
-</ul></li>
+skillfully</a></li>
 <li><a href="#play-and-have-some-fun"
 id="toc-play-and-have-some-fun">Play and have some fun</a></li>
 <li><a href="#memento-morimm-latin"
@@ -342,8 +373,7 @@ id="toc-memento-morimm-latin"><em>Memento mori</em></a></li>
 id="toc-look-out-for-these-common-irrational-arguments">Look out for
 these common irrational arguments</a></li>
 <li><a href="#write-like-a-pro" id="toc-write-like-a-pro">Write like a
-pro</a>
-<ul>
+pro</a></li>
 <li><a href="#write-from-general-to-specific"
 id="toc-write-from-general-to-specific">Write from general to
 specific</a></li>
@@ -352,15 +382,12 @@ id="toc-use-the-minto-pyramid-principle">Use the Minto Pyramid
 Principle</a></li>
 <li><a href="#check-your-references"
 id="toc-check-your-references">Check your references</a></li>
-</ul></li>
 <li><a href="#understand-your-myers-brigg-type-indicator"
 id="toc-understand-your-myers-brigg-type-indicator">Understand your
-Myers-Brigg Type Indicator</a>
-<ul>
+Myers-Brigg Type Indicator</a></li>
 <li><a href="#benefit-by-knowing-you-are-an-intj-personality-type"
 id="toc-benefit-by-knowing-you-are-an-intj-personality-type">Benefit by
 knowing you are an INTJ personality type</a></li>
-</ul></li>
 <li><a href="#externalize-your-memory"
 id="toc-externalize-your-memory">Externalize your memory</a></li>
 <li><a href="#putt-better-by-not-worrying-if-you-will-sink-it"
@@ -429,8 +456,7 @@ action-oriented</a></li>
 id="toc-dont-assume-what-you-can-verify">Don’t assume what you can
 verify</a></li>
 <li><a href="#cope-with-stress" id="toc-cope-with-stress">Cope with
-stress</a>
-<ul>
+stress</a></li>
 <li><a href="#change-your-environment"
 id="toc-change-your-environment">Change your environment</a></li>
 <li><a href="#changing-your-beliefs"
@@ -439,9 +465,21 @@ id="toc-changing-your-beliefs">Changing your beliefs</a></li>
 id="toc-use-relaxation-techniques">Use relaxation techniques</a></li>
 <li><a href="#get-some-exercise" id="toc-get-some-exercise">Get some
 exercise</a></li>
-</ul></li>
 <li><a href="#pace-yourself" id="toc-pace-yourself">Pace
 yourself</a></li>
+<li><a href="#walk" id="toc-walk">Walk</a></li>
+<li><a href="#solve-problems-to-learn"
+id="toc-solve-problems-to-learn">Solve problems to learn</a></li>
+<li><a
+href="#never-attribute-to-malice-that-which-is-adequately-explained-by-stupidity"
+id="toc-never-attribute-to-malice-that-which-is-adequately-explained-by-stupidity">Never
+attribute to malice that which is adequately explained by
+stupidity</a></li>
+<li><a href="#use-zig-zag-for-functional-decomposition"
+id="toc-use-zig-zag-for-functional-decomposition">Use zig-zag for
+functional decomposition</a></li>
+<li><a href="#use-bayes-theorem" id="toc-use-bayes-theorem">Use Baye’s
+Theorem</a></li>
 </ul>
 </nav>
 <h1 id="pour-out-your-love">Pour out your love</h1>
@@ -503,13 +541,10 @@ toward it. Put in effort. Read this manual. Keep it alive.</p>
 <p>Consider making it a requirement that every piece of advice in the
 manual have a real world example from my life. After it gets a story it
 is “supported”. Until then, it is marked “unsupported” or (“U”).</p>
-<h2 id="understand-the-structure">Understand the structure</h2>
-<p>Each heading is a piece of advice.</p>
-<p>What is advice? Advice includes warnings. Advice includes recommended
-action. What else is it? Does advice simply mean <em>recommendation for
+<p>Each heading in <em>The Manual</em> is a piece of advice. What is
+advice? Advice includes warnings. Advice includes recommended action.
+What else is it? Does advice simply mean <em>recommendation for
 action</em>?</p>
-<h2 id="understand-the-format">Understand the format</h2>
-<p>Read and understand the typesetting rules.</p>
 <ul>
 <li><strong>Bold</strong> – headings; important topics; defined terms;
 examples</li>
@@ -628,8 +663,15 @@ losing.</p>
 <li>Play music on a cruise ship.</li>
 <li>Stay in-shape.</li>
 </ul>
-<h2 id="follow-these-steps-for-goal-seeking-behavior">Follow these steps
-for goal-seeking behavior</h2>
+<p>Aspire to reach your goals – do not <em>expect</em> to achieve them.
+Remember there are factors beyond your control that contribute to each
+outcome. Cultivate a feeling of <em>aspirtation</em>. Be hopeful for
+success but gracious in failure.</p>
+<blockquote>
+<p>“If you don’t achieve your goals, it’s okay. If you <em>do</em>
+achieve your goals, it’s better.”</p>
+</blockquote>
+<p>Follow these steps for goal-seeking behavior:</p>
 <ol type="1">
 <li>Set goals. State them clearly. Make each one something that can be
 independently verified.</li>
@@ -639,8 +681,7 @@ achieve it. Remember, “A goal without steps is merely a wish.”</li>
 <li>Once you complete a goal, do not go to the next one on the priority
 list. Instead, re-prioritize the list.</li>
 </ol>
-<h2 id="use-the-abc-method-of-prioritizing-goals">Use the ABC method of
-prioritizing goals</h2>
+<p>Use the ABC method of prioritizing goals:</p>
 <div class="line-block">A = most important and most urgent<br />
 B = less important and less urgent<br />
 C = least important and least urgent; hold in reserve”</div>
@@ -674,7 +715,7 @@ learned by reading <em>ADHD 2.0</em>:</p>
 time.</p>
 </blockquote>
 <p>Remember this as an example of being realistic.</p>
-<h2 id="act-feel-imagine-think">Act, Feel, Imagine, Think</h2>
+<h1 id="act-feel-imagine-think">Act, Feel, Imagine, Think</h1>
 <p>Remember you can only do these four things. They are not mutually
 exclusive. They are rather intertwined. But what else can you do?
 Nothing that I can think of.</p>
@@ -687,12 +728,12 @@ negative valency of the emotions. Experience moods.</li>
 <li><strong>Think</strong>: Talk to yourself, either inwardly or
 outwardly.</li>
 </ul>
-<h2 id="be-optimistic">Be optimistic</h2>
+<h1 id="be-optimistic">Be optimistic</h1>
 <p>You might as well be optimistic. Remember not to feel
 <em>entitled</em> to things going well. You do not <em>expect</em> them
 to go well, but you <em>aspire</em> to it. Being optimistic probably has
 a positive effect on the probability of success.</p>
-<h2 id="avoid-perfectionism">Avoid perfectionism</h2>
+<h1 id="avoid-perfectionism">Avoid perfectionism</h1>
 <p>You are not perfect. Nobody is. Avoid trying to be perfect. If you
 feel that you <em>have to</em> be perfect, the fact that you are
 assuredly not perfect will result in you being chronically disappointed
@@ -700,6 +741,16 @@ in yourself. This is a problem. It leads to depression and feelings of
 inadequacy. It is not conducive to achieving your goals. Be imperfect.
 Be okay with being imperfect.</p>
 <h1 id="spend-time-wisely">Spend time wisely</h1>
+<ul>
+<li><a href="#work-in-10-minute-chunks">Work in 10-minute
+chunks</a>.</li>
+<li><a
+href="#filter-competing-activities-with-the-eisenhower-matrix">Filter
+competing activities with the Eisenhower Matrix</a>.</li>
+<li><a href="#cultivate-productive-habits">Cultivate productive
+habits</a>.</li>
+<li><a href="#use-time-blocking">Use time-blocking</a>.</li>
+</ul>
 <p>Spend time in ways that support your goals, uphold your values, and
 exemplify the kind of person you aspire to be. Spend time enjoying your
 wife and kids. Spend some time with friends. Set lunch dates so you see
@@ -775,7 +826,18 @@ as possible.</li>
 </ol>
 <h1 id="learn-and-practice-communication-skills">Learn and practice
 communication skills</h1>
-<h2 id="use-i-messages">Use “I-messages”</h2>
+<ul>
+<li>[Use I messages].</li>
+<li><a href="#pause-before-communicating-when-angry">Pause before
+communicating when angry</a>.</li>
+<li><a href="#remember-not-communicating-is-communication">Remember not
+communicating is communication</a>.</li>
+<li><a href="#put-some-effort-into-mastering-the-english-language">Put
+some effort into mastering the English Language</a>.</li>
+<li><a href="#generate-your-personal-definitions">Generate your personal
+definitions</a>.</li>
+</ul>
+<h1 id="use-i-messages">Use I-messages</h1>
 <p>Two-part I-message model:</p>
 <blockquote>
 <p>“I feel <code>feeling</code> when
@@ -785,7 +847,8 @@ communication skills</h1>
 passive-aggressive way to dig at the other person. For example, “I feel
 angry because of what you’re saying about me” is better than, “I feel
 angry because you are trying to hurt me.”</p>
-<h2 id="when-angry-pause">When angry, pause</h2>
+<h1 id="pause-before-communicating-when-angry">Pause before
+communicating when angry</h1>
 <p>When angry, pause before communicating. Do not send an email while
 your blood is boiling. Step away. Take some time to cool off. Send it
 when cool, not hot.</p>
@@ -797,8 +860,8 @@ Thomas Jefferson.</p>
 <p>“If you speak when angry, you’ll make the best speech you’ll ever
 regret.” – Grocho Marx.</p>
 </blockquote>
-<h2 id="remember-not-communicating-is-communication">Remember
-<em>not</em> communicating is communication</h2>
+<h1 id="remember-not-communicating-is-communication">Remember not
+communicating is communication</h1>
 <p>You cannot help but communicate. Evading a communication still
 communicates something to the other person. This is an important
 insight. Non-communication is still communication. It is impossible not
@@ -815,8 +878,8 @@ written in English<a href="#fn3" class="footnote-ref" id="fnref3"
 role="doc-noteref"><sup>3</sup></a>. To understand and benefit from the
 document, you need to understand English. Without understanding English,
 you will not understand The Manual.</p>
-<h2 id="use-these-websites-to-generate-your-personal-definitions">Use
-these websites to generate your personal definitions</h2>
+<h1 id="generate-your-personal-definitions">Generate your personal
+definitions</h1>
 <p>As part of your worldview, you adopt definitions. Make the
 definitions as good as you can by using these websites.</p>
 <p>Use the websites to find definitions. If you have the time, do not
@@ -912,20 +975,6 @@ in case they do.</p>
 </tr>
 </tbody>
 </table>
-<h2 id="help-others-understand-metaphors">Help others understand
-metaphors</h2>
-<p>Because you are SMART AND FUN, understand that knowing metaphors is
-helpful, and you want to help others because of your COMPASSION
-PRINCIPLE it makes sense to remember the details about a few metaphors.
-This will help you teach them.</p>
-<p>Remember they are about the human form walking forward on a journey –
-a way to a goal (the place where you stop). They are in a direction
-(value).</p>
-<p>Some metaphors are orientational. They are based upon the upright
-walking posture of a human body. When the human is healthy and alert,
-the human is erect, alert, energetic, upright, or generally <em>up</em>.
-The head is high. When the human is unhealthy or lethargic, the human is
-slumped, slouched, sitting, drooping, or generally <em>down</em>.</p>
 <p><strong><em>How do we find meaning in metaphors?</em></strong></p>
 <p>Seeing, light, physical force (physics), sick person, war, hidden
 object, size (big, small), touching, containers, limbs, — in short all
@@ -991,8 +1040,8 @@ me?</em></strong></p>
 <p>You will be a better writer. You will understand the meaning of
 others’ communications. You will therefore do better working toward your
 goals, especially shared goals.</p>
-<h2 id="read-primary-metaphors.pdf">Read
-<code>Primary Metaphors.pdf</code></h2>
+<h1 id="read-primary-metaphors.pdf">Read
+<code>Primary Metaphors.pdf</code></h1>
 <p>Look at <code>Primary Metaphors.pdf</code>. It lists 20 pages of such
 metaphors with examples. The right-hand side of them is the basic human
 experience. Here are a few from my reading of
@@ -1084,8 +1133,10 @@ conceive the object of our conception to have. Then, our conception of
 those effects is the whole of our conception of the object.</p>
 <h1 id="value-things-according-to-formal-axiology">Value things
 according to formal axiology</h1>
-<p>Value is the degree in which a thing fulfills the attributes
-contained in the intention of its concept.</p>
+<blockquote>
+<p>“Value is the degree in which a thing fulfills the attributes
+contained in the intention of its concept.”</p>
+</blockquote>
 <p>Formal Axiology is also called the “Science of Value.”</p>
 <h1 id="use-reason">Use reason</h1>
 <p>Know what reason is. Know what its rules are. Use them to benefit you
@@ -1131,11 +1182,27 @@ Fame – Disgrace</div>
 better</h1>
 <p>You are a drummer now. Act like it. Work on your craft. Get good at
 it.</p>
-<h2 id="use-the-25-75-rule">Use the 25-75 rule</h2>
+<ul>
+<li><a href="#use-the-25-75-rule">Use the 25-75 rule</a>.</li>
+<li><a href="#understand-dynamic-range-of-levels">Understand dynamic
+range of levels</a> when drumming.</li>
+<li><a href="#memorize-drum-principles">Memorize drum
+principles</a>.</li>
+<li><a href="#seek-good-drum-teachers">Seek good drum teachers</a></li>
+<li><a href="#warm-up-before-practicing-drums">Warm up before practicing
+drums</a></li>
+<li><a href="#master-single-stroke-rolls">Master single stroke
+rolls</a></li>
+<li><a href="#master-double-stroke-rolls">Master double stroke
+rolls</a></li>
+<li><a href="#follow-these-planned-drum-practice-sessions">Follow these
+planned drum practice sessions</a></li>
+</ul>
+<h1 id="use-the-25-75-rule">Use the 25-75 rule</h1>
 <p>Spend 25% of your practice time on information, 75% on
 repetition.</p>
-<h2 id="understand-dynamic-range-of-levels">Understand dynamic range of
-levels</h2>
+<h1 id="understand-dynamic-range-of-levels">Understand dynamic range of
+levels</h1>
 <p>Use these dynamic range of levels taken from drum line. They go in
 3-inch increments.</p>
 <ul>
@@ -1152,8 +1219,7 @@ inches</li>
 <li><span class="math inline"><em>f</em><em>f</em>⋅</span>
 <em>fortissimo</em> 15 inches</li>
 </ul>
-<h2 id="memorize-these-drum-principles">Memorize these drum
-principles</h2>
+<h1 id="memorize-drum-principles">Memorize drum principles</h1>
 <blockquote>
 <p>STOP AT TENSION PRINCIPLE<a href="#fn7" class="footnote-ref"
 id="fnref7" role="doc-noteref"><sup>7</sup></a> – Play at all times with
@@ -1192,14 +1258,14 @@ speed, then back down to regular tempo again.</p>
 <p>Use this online metronome:</p>
 <p><a
 href="https://metronome-online.com">https://metronome-online.com</a></p>
-<h2 id="seek-good-drum-teachers">Seek good drum teachers</h2>
+<h1 id="seek-good-drum-teachers">Seek good drum teachers</h1>
 <p>Look for lessons by these drum teachers. The first guy, Mike
 Michalkow, might be my new favorite.</p>
 <ul>
 <li>Mike Michalkow (mih-KAL-ko).</li>
 </ul>
-<h2 id="learn-and-practice-a-subset-of-drum-rudiments">Learn and
-practice a subset of drum rudiments</h2>
+<h1 id="learn-and-practice-a-subset-of-drum-rudiments">Learn and
+practice a subset of drum rudiments</h1>
 <p>See the Percussive Arts Society at <a
 href="https://pas.org">https://pas.org</a>. There are 40 official
 rudiments. Not all of them seem to be useful to me at my current level
@@ -1243,7 +1309,8 @@ alt="Nine Stroke Roll" />
 alt="Single Paradiddle" />
 <figcaption aria-hidden="true">Single Paradiddle</figcaption>
 </figure>
-<h2 id="warm-up-before-practicing">Warm up before practicing</h2>
+<h1 id="warm-up-before-practicing-drums">Warm up before practicing
+drums</h1>
 <p>This is a 5-minute warmup.</p>
 <ol type="1">
 <li><strong>Shake to loosen your joints.</strong> Shake out your wrists
@@ -1281,15 +1348,19 @@ single stroke roll to double stroke roll for 2 minutes. Alternate
 between <code>LRLR..</code> eighth notes and <code>LLRRLLRR...</code>
 sixteenth notes.</li>
 </ol>
-<h2 id="master-single-stroke-rolls">Master single stroke rolls</h2>
+<h1 id="master-single-stroke-rolls">Master single stroke rolls</h1>
 <p>Master your single stroke roll. Practice at various tempos between 60
-bpm and 180 bpm with eighth notes, triplets, and sixteenth notes.</p>
-<h2 id="master-double-stroke-rolls">Master double stroke rolls</h2>
+bpm and 180 bpm with eighth notes, triplets, and sixteenth notes. <a
+href="#master-double-stroke-rolls">Master double stroke rolls</a>
+too.</p>
+<h1 id="master-double-stroke-rolls">Master double stroke rolls</h1>
 <p>Make the two beats equal. Help the second beat at slow speeds, but at
 high speeds let the rebound take care of the second beat. Don’t go too
-slow. You have to go fast enough that the rebound works.</p>
-<h2 id="follow-these-planned-drum-practice-sessions">Follow these
-planned drum practice sessions</h2>
+slow. You have to go fast enough that the rebound works. <a
+href="#master-single-stroke-rolls">Master single stroke rolls</a>
+too.</p>
+<h1 id="follow-these-planned-drum-practice-sessions">Follow these
+planned drum practice sessions</h1>
 <p>Follow these scripts to practice wisely.</p>
 <p><strong><em>For a 15-minute session:</em></strong></p>
 <ol type="1">
@@ -1343,8 +1414,12 @@ timer.</li>
 <li>Goof around for 5 minutes.</li>
 </ol>
 <h1 id="maintain-good-finances">Maintain good finances</h1>
-<h2 id="re-balance-fidelity-to-8020-split">Re-balance Fidelity to 80/20
-Split</h2>
+<ul>
+<li><a href="#re-balance-fidelity-to-8020-split">Re-balance Fidelity to
+80/20 Split</a>.</li>
+</ul>
+<h1 id="re-balance-fidelity-to-8020-split">Re-balance Fidelity to 80/20
+Split</h1>
 <ol type="1">
 <li>Log into Fidelity.com. Use Bitwarden for password.</li>
 <li>Select <strong>Retirement</strong> account on the left-hand
@@ -1380,7 +1455,7 @@ id="fnref10" role="doc-noteref"><sup>10</sup></a>. Do not spend time on
 the meandering things that come.</li>
 <li>Use the Eisenhower Matrix to filter candidate activities.</li>
 </ol>
-<h2 id="work-in-10-minute-chunks">Work in 10-minute chunks</h2>
+<h1 id="work-in-10-minute-chunks">Work in 10-minute chunks</h1>
 <p>You want to practice things. You want to do productive things. You
 sometimes avoid and evade, because you dread the time, effort, and
 energy you will spend. By working things in defined, 10-minute bursts,
@@ -1405,8 +1480,10 @@ year</strong>.</p>
 <p>10 minutes per work day sums to 37 hours per calendar year.</p>
 <p>It is now easy to scale these up and down to other times.</p>
 </blockquote>
-<h2 id="filter-competing-activities-with-the-eisenhower-matrix">Filter
-competing activities with the Eisenhower Matrix</h2>
+<h1 id="filter-competing-activities-with-the-eisenhower-matrix">Filter
+competing activities with the Eisenhower Matrix</h1>
+<p>This is a way to <a href="#spend-time-wisely">Spend time
+wisely</a>.</p>
 <figure>
 <img src="themanual-figs/eisenhower-matrix.png" width="300"
 alt="Eisenhower Matrix" />
@@ -1425,7 +1502,9 @@ times, say “no” to: people.</p>
 <p><strong>Quadrant 4: NOT urgent, NOT important</strong></p>
 <p>Examples: Watching TV, mindless browsing: Approach: Minimize time.
 Remove temptations from your: surroundings.</p>
-<h2 id="cultivate-productive-habits">Cultivate productive habits</h2>
+<h1 id="cultivate-productive-habits">Cultivate productive habits</h1>
+<p>This is a way to <a href="#spend-time-wisely">Spend time
+wisely</a>.</p>
 <p><em>What are some productive habits?</em></p>
 <ul>
 <li>Daily planning</li>
@@ -1471,7 +1550,7 @@ Apple Reminders. Add alarms.</p>
 3: Sleep<br />
 4: Sleep<br />
 5: Sleep</div>
-<h2 id="use-time-blocking">Use time-blocking</h2>
+<h1 id="use-time-blocking">Use time-blocking</h1>
 <p>The calendar can be a powerful tool. Time-block tasks. This prevents
 other things from encroaching on them. It gives you the permission to
 set aside all other things during that time. Once complete you will
@@ -1494,15 +1573,6 @@ if you are still committed to completing the job.</li>
 <h1 id="use-visual-studio-code-skillfully">Use Visual Studio Code
 skillfully</h1>
 <p>Also called VSCode or VS Code.</p>
-<h2 id="find-non-ascii-characters-in-vs-code">Find non-ASCII characters
-in VS Code</h2>
-<p>Use the find function, mark the regular expressions button, and use
-this expression: <code>[^\x00-\x7f]</code></p>
-<figure>
-<img src="themanual-figs/regex-search-example.png" width="200"
-alt="Regular Expression Search" />
-<figcaption aria-hidden="true">Regular Expression Search</figcaption>
-</figure>
 <p>PDF Generated: </p>
 <h1 id="play-and-have-some-fun">Play and have some fun</h1>
 <p>Get dirty with your inner toddler. Sing with your inner teenager.
@@ -1549,7 +1619,14 @@ moves available:</p>
 also refer to this as <em>inference</em>.</li>
 </ol>
 <h1 id="write-like-a-pro">Write like a pro</h1>
-<p>Before you write, answer these questions?</p>
+<ul>
+<li><a href="#write-from-general-to-specific">Write from general to
+specific</a>.</li>
+<li><a href="#use-the-minto-pyramid-principle">Use the Minto Pyramid
+Principle</a>.</li>
+<li><a href="#check-your-references">Check your references</a>.</li>
+</ul>
+<p>Before you write, answer these questions:</p>
 <ol type="1">
 <li>Who am I writing to? Who is my audience? What do they care
 about?</li>
@@ -1597,8 +1674,10 @@ we explain why we believe it, going from general to detailed.</p>
 <p>Accept imperfection in your writing. Avoid perfectionism. As Wankat
 and Oreovicz (1993) say, “Manuscripts can be revised forever, and the
 reader will never think they are perfect.”</p>
-<h2 id="write-from-general-to-specific">Write from general to
-specific</h2>
+<h1 id="write-from-general-to-specific">Write from general to
+specific</h1>
+<p>This is one way to <a href="#write-like-a-pro">Write like a
+pro</a>.</p>
 <p><strong><em>What is the advice?</em></strong></p>
 <p>To write like Barbara Minto’s framework suggests, write from general
 to specific. Start with the most general thing you know about the
@@ -1610,8 +1689,10 @@ deep this way, as needed.</p>
 you are using the natural abilities of the human mind. Your readers will
 understand it best when it is presented as Barbara Minto suggested:</p>
 <p><strong><em>Why should I believe the advice?</em></strong></p>
-<h2 id="use-the-minto-pyramid-principle">Use the Minto Pyramid
-Principle</h2>
+<h1 id="use-the-minto-pyramid-principle">Use the Minto Pyramid
+Principle</h1>
+<p>This is a way to <a href="#write-like-a-pro">Write like a
+pro</a>.</p>
 <p><strong><em>What is the advice?</em></strong></p>
 <p>When you write a paper of any kind, use this form:</p>
 <ol type="1">
@@ -1622,15 +1703,15 @@ analogy, parts of a whole,metaphor, etc.)</li>
 </ol>
 <p><strong><em>How will the advice help me?</em></strong></p>
 <p><strong><em>Why should I believe the advice?</em></strong></p>
-<h2 id="check-your-references">Check your references</h2>
+<h1 id="check-your-references">Check your references</h1>
 <p>Check any references you make so you do not discredit yourself with
 erroneous references. This agrees with <a
 href="#dont-assume-what-you-can-verify">Don’t assume what you can
 verify</a>.</p>
 <h1 id="understand-your-myers-brigg-type-indicator">Understand your
 Myers-Brigg Type Indicator</h1>
-<h2 id="benefit-by-knowing-you-are-an-intj-personality-type">Benefit by
-knowing you are an INTJ personality type</h2>
+<h1 id="benefit-by-knowing-you-are-an-intj-personality-type">Benefit by
+knowing you are an INTJ personality type</h1>
 <div class="line-block">Be independent<br />
 Be confident<br />
 Be self-sufficient<br />
@@ -1912,18 +1993,27 @@ verify</h1>
 <p>Only make assumptions if you cannot verify the information. If you
 can check it, check it.</p>
 <h1 id="cope-with-stress">Cope with stress</h1>
-<h2 id="change-your-environment">Change your environment</h2>
+<ul>
+<li><a href="#change-your-environment">Change your environment</a></li>
+<li><a href="#changing-your-beliefs">Changing your beliefs</a></li>
+<li><a href="#use-relaxation-techniques">Use relaxation
+techniques</a></li>
+<li><a href="#get-some-exercise">Get some exercise</a></li>
+<li><a href="#pace-yourself">Pace yourself</a></li>
+<li><a href="#walk">Walk</a></li>
+</ul>
+<h1 id="change-your-environment">Change your environment</h1>
 <p>Reduce your caffeine intake. Move to a quieter location. Get away
 from work. Leave work behind you (if you can). Turn off your iPhone
 notifications. Turn off your Outlook email notifications. Close your
 door and hide. Reduce lighting levels or increase them as
 applicable.</p>
-<h2 id="changing-your-beliefs">Changing your beliefs</h2>
+<h1 id="changing-your-beliefs">Changing your beliefs</h1>
 <p>Follow the advice of Rational Emotive Behavior Therapy (REBT). <a
 href="#use-the-main-rebt-process">Use the main REBT process</a>. <a
 href="#benefit-from-the-lessons-of-act">Benefit from the lessons of
 ACT</a>.</p>
-<h2 id="use-relaxation-techniques">Use relaxation techniques</h2>
+<h1 id="use-relaxation-techniques">Use relaxation techniques</h1>
 <p>Use meditation techniques such as Jon Kabat Zinn’s Mindfulness-Based
 Stress Reduction (MBSR). Sit in a spa. Sit on a chair in the backyard,
 doing nothing.</p>
@@ -1932,14 +2022,196 @@ doing nothing.</p>
 <p>“It’s not awful. It’s not terrible. It’s not the end of the world.
 It’s just a pain in the ass!”</p>
 </blockquote>
-<h2 id="get-some-exercise">Get some exercise</h2>
+<h1 id="get-some-exercise">Get some exercise</h1>
+<ul>
+<li><a href="#walk">Walk</a>.</li>
+</ul>
 <p>Reduce stress by walking or working out. Do some stretching. Try
-yoga.</p>
+yoga. <a href="#walk">Walk</a>.</p>
 <h1 id="pace-yourself">Pace yourself</h1>
 <blockquote>
 <p>“If you become restless, speed up. If you become winded, slow down.”
 – Robert Pirsig.</p>
 </blockquote>
+<h1 id="walk">Walk</h1>
+<p>This is a way to <a href="#get-some-exercise">Get some
+exercise</a>.</p>
+<p>Walk. Walk for exercise. Walk for mental health. Walk to generate
+creative thoughts. Walk to clear your mind. <a
+href="#pace-yourself">Pace yourself</a> as you go. This is one way to <a
+href="#get-some-exercise">Get some exercise</a>.</p>
+<h1 id="solve-problems-to-learn">Solve problems to learn</h1>
+<p>Application of engineering knowledge usually means problem solving.
+Watching someone else solve problems does not make you a better problem
+solver. You must solve problems.</p>
+<h1
+id="never-attribute-to-malice-that-which-is-adequately-explained-by-stupidity">Never
+attribute to malice that which is adequately explained by stupidity</h1>
+<p>Give people the benefit of the doubt. Assume they are not malicious
+but rather only incompetent until otherwise demonstrated.</p>
+<blockquote>
+<p>“There is very little deliberate wickedness in the world. The
+stupidity of our selfishness gives much the same results indeed, but in
+the ethical laboratory it shows a different nature” – H. G. Wells
+(1896)</p>
+</blockquote>
+<h1 id="use-zig-zag-for-functional-decomposition">Use zig-zag for
+functional decomposition</h1>
+<p>I am trying to do this quickly while it is fresh. We want to
+decompose our system starting with its primary function (FR0),
+proceeding to its primary design parameter (DP0). Next we want to break
+down FR0 into its largest pieces. But to do that, we need to keep DP0 in
+mind. Let’s see it in action.</p>
+<p>Rewrite the above in the imperative mood when you get some free
+time.</p>
+<p>Let’s start with my <code>determine</code> program idea. It will be
+used in the real world to design metal buildings, to produce design
+reports that demonstrate the building meets code. The design reports
+need to look like professional, engineered reports. So what is the
+top-level functional requirement? Let’s try our hand.</p>
+<div class="line-block"><strong>FR0</strong>: Produce metal building
+foundation design reports.</div>
+<p>It seems to me we will need this to do it:</p>
+<div class="line-block"><strong>DP0</strong>: Metal building foundation
+design toolchain.</div>
+<p>With the toolchain concept in mind, what are the functional
+requirements we would use to “produce metal building foundation design
+reports”? We need to produce a Markdown file. Then we need to produce a
+PDF.</p>
+<div class="line-block"><strong>FR1</strong>: Produce a Markdown
+file<br />
+<strong>FR2</strong>: Produce a PDF</div>
+<p>These are the two functional requirements of our toolchain (DP0). We
+now <em>zig</em> back to design paramters. Let’s start with FR1. For
+this we need a program that does not exist, namely
+<code>determine</code>.</p>
+<div class="line-block"><strong>DP1</strong>:
+<code>determine</code></div>
+<p>And to produce a PDF, we have Pandoc.</p>
+<div class="line-block"><strong>DP2</strong>: <code>pandoc</code></div>
+<p>Let’s look at them all together now, interleaving the FRs and
+DPs:</p>
+<div class="line-block"><strong>FR0</strong>: Produce metal building
+foundation design reports.<br />
+<strong>DP0</strong>: Metal building foundation design toolchain.<br />
+<strong>FR1</strong>: Produce a Markdown file<br />
+<strong>DP1</strong>: <code>determine</code><br />
+<strong>FR2</strong>: Produce a PDF<br />
+<strong>DP2</strong>: <code>pandoc</code></div>
+<p>DP2 is fully decomposed. We already have Pandoc now. Nothing further
+is needed. But DP1 is nowhere. We need to continue the decomposition.
+What are the functional requirements for determine?</p>
+<div class="line-block"><strong>FR1.1</strong>: Read input file<br />
+<strong>FR1.3</strong>: Design the buildings<br />
+<strong>FR1.4</strong>: Print results (in Markdown format)</div>
+<p>We need DPs now for these FRs.</p>
+<div class="line-block"><strong>DP1.1</strong>: Reader module<br />
+<strong>DP1.2</strong>: Engineering module<br />
+<strong>DP1.3</strong>: Writer module</div>
+<p>Let us keep going! Now what are the functional requirements of
+DP1.1?</p>
+<div class="line-block"><strong>FR1.1.1</strong>: Read lines of input
+file<br />
+<strong>FR1.1.2</strong>: Parse input file into values<br />
+<strong>FR1.1.3</strong>: Create a model instance</div>
+<p>I am now thinking of this in terms of functional programming:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode lisp"><code class="sourceCode commonlisp"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>(model (parse (<span class="kw">read</span> input_file)))</span></code></pre></div>
+<p>Or in a more conventional language:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>Model<span class="op">(</span>data<span class="op">:</span> Parse<span class="op">(</span>string<span class="op">:</span> Read<span class="op">(</span>filename<span class="op">)))</span></span></code></pre></div>
+<p>Or a little cleaner:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>text <span class="op">=</span> Read<span class="op">(</span><span class="st">&quot;filename&quot;</span><span class="op">)</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>data <span class="op">=</span> Parse<span class="op">(</span>text<span class="op">)</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> Model<span class="op">(</span>data<span class="op">)</span></span></code></pre></div>
+<p>Back to our zagging. What are the functional requirements of DP1.2
+which is the engineering module? We need to proportion the elements of
+the building: footings and piers for starters. Then we need to design
+the rebar for them. This process needs to iterate until the proportions
+meet code. So we need to be able to check code. Let’s try these.</p>
+<div class="line-block"><strong>FR1.2.1</strong>: Design concrete<br />
+<strong>FR1.2.2</strong>: Design rebar<br />
+<strong>FR1.2.3</strong>: Check code</div>
+<p>Now we can start decomposing further. Look at the DPs for these
+FRs.</p>
+<div class="line-block"><strong>DP1.2.1</strong>: Concrete designer
+class<br />
+<strong>DP1.2.2</strong>: Rebar designer class<br />
+<strong>DP1.2.3</strong>: Code check class</div>
+<p>I can see the concrete designer class is going to have functions that
+are iterating from small to large, asking for code checks, and stopping
+when code requirements are met. But for tonight we are going to stop at
+this level of decomposition. I think I get this now. It is
+brilliant.</p>
+<ol type="1">
+<li>Start with the highest level function, the <em>primary
+function</em>. State it in one complete sentence. It should be
+imperative mood – a command, if you will.</li>
+<li><em>Zig</em>. Answer the question: what real-world thing will
+provide this function to the user? Here mine was first a suite of two
+programs: pandoc and determine.</li>
+<li><em>Zag</em>. Now we think about the real-world thing. What
+functions does it need to do in order to produce the higher-level
+function? There need to be more than one. Otherwise it is not a
+decomposition.</li>
+<li>Now we <em>zig</em> again. Take the first of the two next-level
+functional requirements (FR). What major component of the real-world
+thing will provide this function?</li>
+<li>Repeat this process of zigging (identifying the object, part,
+subsystem, component, element that provides functionality) and zagging
+(defining the functionality it provides).</li>
+</ol>
+<p>Let’s try something crazy. Start at level 0:</p>
+<div class="line-block"><strong>FP0</strong>: Compete with EPC
+contractors<br />
+<strong>DP0</strong>: EPC contractor-style organization</div>
+<p>Go to level 1:</p>
+<div class="line-block"><strong>FP1</strong>: Manage the
+organization<br />
+<strong>FP2</strong>: Engineer projects<br />
+<strong>FP3</strong>: Procure materials<br />
+<strong>FP4</strong>: Construct projects</div>
+<p>Now what are the Design Parameters at level 1?</p>
+<div class="line-block"><strong>DP1</strong>: Management team<br />
+<strong>DP2</strong>: Engineering team<br />
+<strong>DP3</strong>: Procurement department<br />
+<strong>DP4</strong>: Operations department</div>
+<p>What are the functions of the Management team (DP1)?</p>
+<div class="line-block"><strong>FR1.1</strong>: Manage workforce<br />
+<strong>FR1.3</strong>: Manage work</div>
+<p>What about the Engineering team (DP2)? What are the engineering
+functions that feed into <em>Engineer projects</em> function?</p>
+<div class="line-block"><strong>FR2.1</strong>: Manage team<br />
+<strong>FR2.2</strong>: Manage standards<br />
+<strong>FR2.3</strong>: Manage contracts<br />
+<strong>FR2.4</strong>: Manage permits<br />
+<strong>FR2.5</strong>: Design work packages to ops<br />
+<strong>FR2.6</strong>: Buy materials</div>
+<p>We need DPs for these FRs:</p>
+<div class="line-block"><strong>DP2.1</strong>: Manager<br />
+<strong>DP2.2</strong>: Standards committee<br />
+<strong>DP2.3</strong>: Project engineering team<br />
+<strong>DP2.4</strong>: Project assistant<br />
+<strong>DP2.5</strong>: Production team<br />
+<strong>DP2.6</strong>: Materials specialist</div>
+<p>I want to keep going, I really do, but it’s time for bed now.</p>
+<p>There is something here that is related to Makefiles.</p>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode makefile"><code class="sourceCode makefile"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="dt">DP0</span> <span class="ch">=</span><span class="st"> Metal building foundation design toolchain</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="dv">FR0 :</span><span class="dt"> DP0</span></span></code></pre></div>
+<h1 id="use-bayes-theorem">Use Baye’s Theorem</h1>
+<p><span class="math display">$$P(H|e) =
+\frac{P(e|H)P(H)}{P(e)}$$</span></p>
+<div class="line-block"><span class="math inline"><em>P</em></span> =
+Probability of.<br />
+<span class="math inline"><em>H</em></span> = Hypothesis.<br />
+<span class="math inline"><em>e</em></span> = Evidence.<br />
+<span class="math inline"><em>P</em>(<em>H</em>)</span> = Prior
+probability of hypothesis.<br />
+<span class="math inline"><em>P</em>(<em>H</em>|<em>e</em>)</span> =
+Posterior conditional probability of hypothesis = probability of
+hypothesis <span class="math inline"><em>H</em></span> given evidence
+<span class="math inline"><em>e</em></span>.</div>
 <section id="footnotes" class="footnotes footnotes-end-of-document"
 role="doc-endnotes">
 <hr />
