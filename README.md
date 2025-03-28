@@ -85,3 +85,18 @@ Ran the server.
 % zola serve
 ```
 Browsed `http://127.0.0.1:1111` and got "This is my blog made with Zola."
+
+Added `myblog/content/blog/_index.md` with this content:
+```markdown
++++
+title = "List of blog posts"
+sort_by = "date"
+template = "blog.html"
+page_template = "blog-page.html"
++++
+```
+Ran the server.
+```sh
+% zola serve
+```
+Browsed `http://127.0.0.1:1111/blog` and got "List of blog posts".
