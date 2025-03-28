@@ -1,0 +1,14 @@
+---
+---
+
+@import "minima";
+
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 20px;  /* Slightly larger text */
+    line-height: 1.6;
+    max-width: 800px;  /* Comfortable reading width */
+    margin: auto;
+    background: #fafafa;
+    color: #333;
+}
