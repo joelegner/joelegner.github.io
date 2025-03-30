@@ -18,6 +18,14 @@
     <content type="html">&lt;p&gt;Welcome to my blog. I made it on Sunday, March 30, 2025, using the &lt;code&gt;11ty&lt;/code&gt; static website generator. It uses their default theme, because it looks fine and I do not want to worry about formatting. If the desire strikes me later, I might try to change the aesthetics. But for now this will work.&lt;/p&gt;
 &lt;h2 id=&quot;whats-the-point-of-the-blog&quot;&gt;What&#39;s the point of the blog?&lt;/h2&gt;
 &lt;p&gt;I see myself as a curator of good ideas. For now I hope you will accept the tentative definition that &amp;quot;good&amp;quot; means &amp;quot;conducive to achieving of goals in life.&amp;quot;&lt;/p&gt;
+&lt;h2 id=&quot;whos-ideas-do-you-mean&quot;&gt;Who&#39;s ideas do you mean?&lt;/h2&gt;
+&lt;p&gt;Here are some name-drops.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Charles Sanders Peirce&lt;/li&gt;
+&lt;li&gt;George Lakeoff&lt;/li&gt;
+&lt;li&gt;Julian Jaynes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Fun Fact: Peirce rhymes with &lt;em&gt;hearse&lt;/em&gt;.&lt;/p&gt;
 &lt;h2 id=&quot;how-about-an-example&quot;&gt;How about an example?&lt;/h2&gt;
 &lt;blockquote&gt;
 &lt;p&gt;💡Idea: Apply logic to get better results in life.&lt;/p&gt;
