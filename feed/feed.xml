@@ -16,8 +16,13 @@
     <updated>2025-03-30T00:00:00Z</updated>
     <id>https://example.com/blog/2025-03-30/</id>
     <content type="html">&lt;p&gt;Welcome to my blog. I made it on Sunday, March 30, 2025, using the &lt;code&gt;11ty&lt;/code&gt; static website generator. It uses their default theme, because it looks fine and I do not want to worry about formatting. If the desire strikes me later, I might try to change the aesthetics. But for now this will work.&lt;/p&gt;
-&lt;h2 id=&quot;whats-the-point-of-the-blog&quot;&gt;What&#39;s the point of the blog?&lt;/h2&gt;
-&lt;p&gt;I see myself as a curator of good ideas. For now I hope you will accept the tentative definition that &amp;quot;good&amp;quot; means &amp;quot;conducive to achieving of goals in life.&amp;quot;&lt;/p&gt;
+&lt;h2 id=&quot;why-should-i-read-this-blog&quot;&gt;Why should I read this blog?&lt;/h2&gt;
+&lt;p&gt;Reading the ideas on this website will help you live a better life.&lt;/p&gt;
+&lt;p&gt;That&#39;s a bold claim. In mathematics we might call such a claim a theorem. How can we prove the theorem? We can put it this way:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Theorem.&lt;/strong&gt; Reading the ideas on this website will help you live a better life.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Proof.&lt;/strong&gt; The theorem says this: there is a set of ideas, housed on this website, that can help a person live a better life. The proof of this is that it has helped one person already: the author. This is a form of what mathematicians call &amp;quot;direct proof.&amp;quot;&lt;/p&gt;
+&lt;p&gt;Okay, the theorem and proof are a bit silly. This is not a formal proof by any means. But it gives you a sense of how I like to reason. It could be made very formal, using set theory.&lt;/p&gt;
+&lt;p&gt;I want to help people. I believe good ideas help people. So I see myself as a curator of good ideas. For now I hope you will accept the tentative definition that &amp;quot;good&amp;quot; means &amp;quot;conducive to achieving of goals in life.&amp;quot; I call this role in life &amp;quot;The Gardner&amp;quot;. The Gardner plants seeds and waters them.&lt;/p&gt;
 &lt;h2 id=&quot;whos-ideas-do-you-mean&quot;&gt;Who&#39;s ideas do you mean?&lt;/h2&gt;
 &lt;p&gt;Here are some name-drops.&lt;/p&gt;
 &lt;ul&gt;
@@ -35,6 +40,11 @@
 &lt;p&gt;&amp;quot;I demand a proof that shows the rules of logic are necessary.&amp;quot;&lt;/p&gt;
 &lt;p&gt;&amp;quot;To demand proof is to assume that reasoning can justify conclusions. But reasoning itself depends on logical principles. Therefore, the act of demanding proof presupposes logic.&amp;quot;&lt;/p&gt;
 &lt;p&gt;Logic seems to be self-evidently valid. As soon as you ask “why” you announce that you will accept reasons. Once you do that you announce you accept reason and logic.  But all logical arguments (including this one) are based ultimately on unprovable assumptions or axioms. They are assumed, not obviously true. C.S. Peirce might add that they are useful in practice, which for him—and you—makes all the difference. Apply logic to get better results in life.&lt;/p&gt;
+&lt;h2 id=&quot;whats-with-all-the-metaphors&quot;&gt;What&#39;s with all the metaphors?&lt;/h2&gt;
+&lt;p&gt;Before you go, I wanted to point out something here: metaphors. There are metaphors in this page. They are the key to understanding the site. It might be helpful to remember this.&lt;/p&gt;
+&lt;p&gt;Above I &amp;quot;see&amp;quot; myself as a curator of good ideas. I do not literally see myself that way. I see my body the way I have always seen it. Nothing has changed. What I&#39;m describing is more like imagining a mental persona, an analog of the me here on earth. This is another metaphor.&lt;/p&gt;
+&lt;p&gt;I also claim that I am a &amp;quot;Garnder&amp;quot; that &amp;quot;plants seeds and waters them.&amp;quot; This is a hint about ideas being seeds and evidence being water that helps seeds grow.&lt;/p&gt;
+&lt;p&gt;I think metaphors are critical for understanding. In fact I believe all human knowledge is layers of metaphors built on some very basic concepts like object, object permanence, weight, distance, time, containers to name a few.&lt;/p&gt;
 </content>
   </entry>
 </feed>
