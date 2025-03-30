@@ -1,1 +1,0 @@
-# joelegner.github.io Blog
