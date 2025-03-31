@@ -15,36 +15,55 @@
     <link href="https://example.com/blog/2025-03-30/" />
     <updated>2025-03-30T00:00:00Z</updated>
     <id>https://example.com/blog/2025-03-30/</id>
-    <content type="html">&lt;p&gt;Welcome to my blog. I made it on Sunday, March 30, 2025, using the &lt;code&gt;11ty&lt;/code&gt; static website generator. It uses their default theme, because it looks fine and I do not want to worry about formatting. If the desire strikes me later, I might try to change the aesthetics. But for now this will work.&lt;/p&gt;
-&lt;h2 id=&quot;why-should-i-read-this-blog&quot;&gt;Why should I read this blog?&lt;/h2&gt;
-&lt;p&gt;Reading the ideas on this website will help you live a better life.&lt;/p&gt;
-&lt;p&gt;That&#39;s a bold claim. In mathematics we might call such a claim a theorem. How can we prove the theorem? We can put it this way:&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Theorem.&lt;/strong&gt; Reading the ideas on this website will help you live a better life.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Proof.&lt;/strong&gt; The theorem says this: there is a set of ideas, housed on this website, that can help a person live a better life. The proof of this is that it has helped one person already: the author. This is a form of what mathematicians call &amp;quot;direct proof.&amp;quot;&lt;/p&gt;
-&lt;p&gt;Okay, the theorem and proof are a bit silly. This is not a formal proof by any means. But it gives you a sense of how I like to reason. It could be made very formal, using set theory.&lt;/p&gt;
-&lt;p&gt;I want to help people. I believe good ideas help people. So I see myself as a curator of good ideas. For now I hope you will accept the tentative definition that &amp;quot;good&amp;quot; means &amp;quot;conducive to achieving of goals in life.&amp;quot; I call this role in life &amp;quot;The Gardner&amp;quot;. The Gardner plants seeds and waters them.&lt;/p&gt;
-&lt;h2 id=&quot;whos-ideas-do-you-mean&quot;&gt;Who&#39;s ideas do you mean?&lt;/h2&gt;
-&lt;p&gt;Here are some name-drops.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Welcome to my blog. Blog entries, including this first one, will be structured like this:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Charles Sanders Peirce&lt;/li&gt;
-&lt;li&gt;George Lakeoff&lt;/li&gt;
-&lt;li&gt;Julian Jaynes&lt;/li&gt;
+&lt;li&gt;Situation&lt;/li&gt;
+&lt;li&gt;Complication&lt;/li&gt;
+&lt;li&gt;Question&lt;/li&gt;
+&lt;li&gt;Brief answer&lt;/li&gt;
+&lt;li&gt;Discussion&lt;/li&gt;
+&lt;li&gt;Conclusion&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Fun Fact: Peirce rhymes with &lt;em&gt;hearse&lt;/em&gt;.&lt;/p&gt;
-&lt;h2 id=&quot;how-about-an-example&quot;&gt;How about an example?&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;💡Idea: Apply logic to get better results in life.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Suppose you are engaged in conversation. You want to start off with some groundrules to make the conversation fruitful.&lt;/p&gt;
-&lt;p&gt;You suggest to your interlocutor, &amp;quot;We will be most effective if we try to reason. So, I propose we follow the rules of logic.&amp;quot;&lt;/p&gt;
-&lt;p&gt;&amp;quot;I demand a proof that shows the rules of logic are necessary.&amp;quot;&lt;/p&gt;
-&lt;p&gt;&amp;quot;To demand proof is to assume that reasoning can justify conclusions. But reasoning itself depends on logical principles. Therefore, the act of demanding proof presupposes logic.&amp;quot;&lt;/p&gt;
-&lt;p&gt;Logic seems to be self-evidently valid. As soon as you ask “why” you announce that you will accept reasons. Once you do that you announce you accept reason and logic.  But all logical arguments (including this one) are based ultimately on unprovable assumptions or axioms. They are assumed, not obviously true. C.S. Peirce might add that they are useful in practice, which for him—and you—makes all the difference. Apply logic to get better results in life.&lt;/p&gt;
-&lt;h2 id=&quot;whats-with-all-the-metaphors&quot;&gt;What&#39;s with all the metaphors?&lt;/h2&gt;
-&lt;p&gt;Before you go, I wanted to point out something here: metaphors. There are metaphors in this page. They are the key to understanding the site. It might be helpful to remember this.&lt;/p&gt;
-&lt;p&gt;Above I &amp;quot;see&amp;quot; myself as a curator of good ideas. I do not literally see myself that way. I see my body the way I have always seen it. Nothing has changed. What I&#39;m describing is more like imagining a mental persona, an analog of the me here on earth. This is another metaphor.&lt;/p&gt;
-&lt;p&gt;I also claim that I am a &amp;quot;Garnder&amp;quot; that &amp;quot;plants seeds and waters them.&amp;quot; This is a hint about ideas being seeds and evidence being water that helps seeds grow.&lt;/p&gt;
-&lt;p&gt;I think metaphors are critical for understanding. In fact I believe all human knowledge is layers of metaphors built on some very basic concepts like object, object permanence, weight, distance, time, containers to name a few.&lt;/p&gt;
+&lt;h2 id=&quot;situation&quot;&gt;Situation&lt;/h2&gt;
+&lt;p&gt;The situation is the staring point. You have come across a blog that you have not seen before.&lt;/p&gt;
+&lt;h2 id=&quot;complication&quot;&gt;Complication&lt;/h2&gt;
+&lt;p&gt;The complication is the challenge you face. It is a problem. It is a cry for a decision. You do not know whether to invest any time in reading said blog.&lt;/p&gt;
+&lt;h2 id=&quot;question&quot;&gt;Question&lt;/h2&gt;
+&lt;p&gt;When faced with a challenge, you naturally want to ask a question. You ask, &amp;quot;Why should I read this blog?&amp;quot;&lt;/p&gt;
+&lt;h2 id=&quot;brief-answer&quot;&gt;Brief Answer&lt;/h2&gt;
+&lt;p&gt;We give you the bottom line up front. This helps you minimize wasted time. Our answer is, &amp;quot;Read this blog to learn how to make progress in your life.&amp;quot;&lt;/p&gt;
+&lt;h2 id=&quot;discussion&quot;&gt;Discussion&lt;/h2&gt;
+&lt;p&gt;This blog teaches better thinking. Better thinking helps you make better decisions under uncertainty, achieve more goals, manifest your values, and live life richly. These habits will improve the frequency, quality, and quantity of good times in life. Sometimes it means achieving goals. Sometimes it means improving oneself.&lt;/p&gt;
+&lt;p&gt;We will plead our case like a lawyer pleads to a judge. The law has much to say about how to make decisions. It is a fascinating area of study.&lt;/p&gt;
+&lt;p&gt;When we combine these two: achieving goals and self-improvements, we will call the overall result &lt;em&gt;progress&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Can I do it? Can I teach you how to make progress? I think so. But it’s almost completely credited to other people. I do not claim to have figured out life. But I see patterns. And I have seen a lot of snapshots that, when stitched together, create a beautiful and satisfying portrait of something.&lt;/p&gt;
+&lt;p&gt;Some snapshots are filed under Buddhism. Some are filed under Stoicism. Some are filed under philosophy. Some are filed under literature. Some are filed under music.&lt;/p&gt;
+&lt;p&gt;Whether you flourish or not depends on action. Action depends on beliefs and conditions.&lt;/p&gt;
+&lt;p&gt;Some actions work to maximize the probability of good outcomes. We will call those workable, helpful, rational, or functional.&lt;/p&gt;
+&lt;p&gt;Some alternative actions work to minimize that probability. We will call those unworkable, unhelpful; irrational, or dysfunctional.&lt;/p&gt;
+&lt;p&gt;Think of all the possible actions you could take in the next, say, five minutes. You could lie down. You could start putting together a puzzle. You could manscape. Among all the possibilities is the one or two you will actual do once we see the movie. The act of taking that action we will call a decision. It cuts off the other actions that could take place at that moment.&lt;/p&gt;
+&lt;p&gt;Time and circumstances will cut off even more. And new possibilities will appear. The set of all possible actions is ever changing. It is time dependent.&lt;/p&gt;
+&lt;p&gt;I want to help you make decisions.
+Why? I want you to flourish. I care about you.&lt;/p&gt;
+&lt;p&gt;We are all here on this planet without our consent. Not a single one of us consented to being born. We might as well make the best of it. To do that I think means cooperating. Imagine each of us contributing what we know to a global mental world. If we do it right, better things will happen.&lt;/p&gt;
+&lt;p&gt;Let’s look at our first theorem.&lt;/p&gt;
+&lt;p&gt;Theorem: Among all possible decisions, some are more likely to lead to human flourishing.&lt;/p&gt;
+&lt;p&gt;Suppose you are standing in a puddle of gasoline. You have a lighter in your hand. One decision is to light the lighter. Another is to not light the lighter. Which one is more likely to lead to your flourishing in life?&lt;/p&gt;
+&lt;p&gt;What do you mean by &lt;em&gt;human flourishing&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;To answer this, answer the related question: what are the features and characteristics of a life that is like a healthy, flourishing plant?&lt;/p&gt;
+&lt;p&gt;In manufacturing and software development they have a concept called &lt;em&gt;lean&lt;/em&gt;. Lean is a way of thinking. Lean is a way of thinking with a purpose. The purpose is this: reduce waste. To think lean is to think about ways to reduce waste in a business setting.&lt;/p&gt;
+&lt;p&gt;Let&#39;s consider if we stepped back from business to life as whole, starting with one human life: your life. If you wanted to translate lean thinking to life as a whole, what would the essence be? Perhaps it is still waste.&lt;/p&gt;
+&lt;p&gt;We said lean manufacturing and lean software development is about reducing waste. What kind of waste? In the business world it is wasted &lt;em&gt;money&lt;/em&gt;. Your life is bigger than business. Your life is bigger than money. At the level of life, the currency is the quality of experience. Your experience at any moment can be tolerable and intolerable. To minimize waste here is to minimize intolerable time.&lt;/p&gt;
+&lt;p&gt;This is a hypothesis: we can reduce the frequency, quantity, and severity of bad experiences by thinking more clearly.&lt;/p&gt;
+&lt;p&gt;We might say it another way: a good life eliminates unnecessary suffering.&lt;/p&gt;
+&lt;p&gt;Let us look at a woman living in this world. She knows she deserves not to suffer, because she did not ask to be here. Any time she suffers is a cosmic injustice.&lt;/p&gt;
+&lt;p&gt;She does and says what she believes will make the world a better place. She has good reason to believe it. She engages with all aspects of her humanity. She transcends it too. She continually learns.&lt;/p&gt;
+&lt;p&gt;When a new idea fits the bit picture better than an old idea, she makes the replacement. She feels a sense of purpose anchored in reality. She tries to do the right thing. She has compassion for the other passengers on earth.&lt;/p&gt;
+&lt;p&gt;Problems come her way. They cause her concern, but not anxiety. She can handle it. She is cool. She is level headed.  She knows that problems get solved. She knows how to attack some problems already. And when she faces a new problem, she experiments.&lt;/p&gt;
+&lt;p&gt;Her tries get better over time, too.&lt;/p&gt;
+&lt;p&gt;I plan to do it by showing you many useful ideas collected over a period of years. The ideas cover a wide range of subjects. The ideas are distilled from many sources. You will need to know the source to have complete information. Where possible, I show you how to link like two ideas together. Then when you encounter one in the future, you will recall the other and profit from it.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;This entry was intended as a brief introduction to get things started. The next one you will see will be content.&lt;/p&gt;
 </content>
   </entry>
 </feed>
