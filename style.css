@@ -62,3 +62,10 @@ hr {
   border: none;
   border-top: 1px solid #ccc;
 }
+
+/* Reset for lists */
+ol, ul {
+  list-style-position: inside;
+  padding-left: 0;  /* Remove default padding */
+}
+
