@@ -1,0 +1,64 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: "Baskerville", "Georgia", serif;
+  font-size: 18px;
+  line-height: 1.5; /* Reduced line-height for tighter spacing */
+  color: #222;
+  background-color: #f1f8fb;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0; /* Reduced padding to decrease space above content */
+}
+
+/* Main content area */
+main {
+  width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  font-weight: normal; /* Ensure headings are not bold */
+}
+
+h1 {
+  font-size: 1.5rem; /* Reduced font size for the main heading */
+  margin: 1rem 0 1rem;
+}
+
+h2 {
+  font-size: 1.2rem; /* Reduced font size for subheadings */
+  margin: 1rem 0;
+}
+
+h3 {
+  font-size: 1.5rem; /* Reduced font size for smaller headings */
+  margin: 1rem 0;
+}
+
+/* Paragraphs */
+p {
+  margin-bottom: 1.5rem;
+}
+
+/* Optional: blockquote, hr, etc. for more typographic elegance */
+blockquote {
+  font-style: italic;
+  margin: 2rem 0;
+  padding-left: 1rem;
+  border-left: 3px solid #ccc;
+}
+
+hr {
+  margin: 3rem 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
