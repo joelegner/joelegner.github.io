@@ -61,3 +61,17 @@ ol, ul {
   list-style-position: inside;
   padding-left: 0;
 }
+
+.qa {
+  max-width: 600px;
+}
+
+.qa dt {
+  font-weight: 600;
+  margin-top: 1.25rem;
+}
+
+.qa dd {
+  margin: 0.25rem 0 0 0;
+  color: #444;
+}
