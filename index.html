@@ -1,175 +1,295 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Thinking - Joe Legner</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
-    <body>
-        <main>
-            <h1>Read this website to make life better.</h1>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal manifesto — Joe Legner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
 
-            <dl class="qa">
-                <dt>If I read this website, what can I hope to get?</dt>
-                <dd>A better life.</dd>
+    body {
+      font-family: 'Lora', Georgia, serif;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      color: #1a1610;
+      background: #faf8f3;
+      padding: 4rem 1.5rem 6rem;
+    }
 
-                <dt>Seriously?</dt>
-                <dd>Yes. But bear with me!</dd>
+    .page {
+      max-width: 600px;
+      margin: 0 auto;
+    }
 
-                <dt>Who made this website?</dt>
-                <dd>My name is Joe Legner. I conceived, planned, wrote, and published this website as you see it presently.</dd>
+    .title {
+      font-style: italic;
+      color: #4a4030;
+      margin-bottom: 3rem;
+    }
 
-                <dt>How should I read this for maximum benefit?</dt>
-                <dd>
-                    1. Read it once, all the way through, without stopping for understanding. If you had to explain it to someone on the phone in 15 seconds or less, what would you say?
-                </dd>
-                <dd>
-                    2. Read each question that interests you more slowly. If you asked this question, how would you put it? What is your answer to this question in your own words?
-                </dd>
+    .qa {
+      margin-bottom: 2rem;
+    }
 
-                <dt>When did I most recently publish this?</dt>
-                <dd>Tuesday, February 24, 2026 at 2:30 PM.</dd>
+    .q {
+      font-style: italic;
+      color: #4a4030;
+    }
 
-                <dt>Why did I publish this site?</dt>
-                <dd>To help whoever reads it.</dd>
+    ol {
+      list-style: none;
+      padding: 0;
+      counter-reset: item;
+    }
 
-                <dt>How do I structure the site?</dt>
-                <dd>By question and answer.</dd>
+    ol li {
+      counter-increment: item;
+    }
 
-                <dt>
-                    How will reading this website make life better?
-                </dt>
-                <dd>
-                    You will understand how Joe Legner thinks and why he talks the way he talks.
-                </dd>
+    ol li::before {
+      content: counter(item) ". ";
+    }
 
-                <dt>How will understanding Joe Legner better make life better?</dt>
-                <dd>You will have a better relationship with him. Relationships are built on understanding. If you read this website, you will understand, which improves the relationship.</dd>
+    @media (max-width: 480px) {
+      body { font-size: 1rem; padding: 2.5rem 1.25rem 5rem; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
 
-                <dt>How does an improved relationship make life better?</dt>
-                <dd>An improved relationship leads away from arguments and toward peace. And improved relationship leads away from bad feelings and toward good feelings.</dd>
+<div class="qa">
+    <p class="q">What is this?</p>
+    <p>The personal manfiesto of Joe Legner of Valrico, Florida, United States.</p>
+  </div>
+  
+  <div class="qa">
+    <p class="q">What is my purpose for life?</p>
+    <p>Reduce suffering.</p>
+  </div>
 
-                <dt>How do all those things I said about improving the relationship make life better?</dt>
-                <dd>They reduce suffering.</dd>
+  <div class="qa">
+    <p class="q">How do I define what is morally good and morally bad?</p>
+    <ol>
+      <li>What is morally good is that which tends toward the extinction of suffering.</li>
+      <li>What is morally bad means is that which tends toward the increase in suffering.</li>
+    </ol>
+  </div>
 
-                <dt>Why do I want to reduce suffering?</dt>
-                <dd>To obey Joe’s prime directive.</dd>
+  <div class="qa">
+    <p class="q">How do I define morally right and morally wrong?</p>
+    <ol>
+      <li>What is morally right is that which tends toward the extinction of suffering.</li>
+      <li>What is morally wrong is that which tends toward the increase in suffering.</li>
+    </ol>
+  </div>
 
-                <dt>Why do I obey Joe’s prime directive?</dt>
-                <dd>Because I choose to.</dd>
+  <div class="qa">
+    <p class="q">What are my core values?</p>
+    <ol>
+      <li>Kindness.</li>
+      <li>Cooperation.</li>
+      <li>Equality.</li>
+      <li>Consent.</li>
+    </ol>
+  </div>
 
+  <div class="qa">
+    <p class="q">What are the virtues I aspire to develop in myself and encourage in others?</p>
+    <ol>
+      <li>Prudence. I aspire to apply right reason to my speech and action.</li>
+      <li>Justice. I aspire to be fair to others and to myself.</li>
+      <li>Courage. I aspire to step up and do the right thing even when it is uncomfortable or even dangerous.</li>
+      <li>Temperance. I aspire to take the middle way, to restrain myself from extremes.</li>
+    </ol>
+  </div>
 
-                <dt>What do I mean when I say "Joe's Prime Directive"?</dt>
-                <dd>The primary rule I live by.</dd>
+  <div class="qa">
+    <p class="q">What experiences have shaped me most deeply?</p>
+    <ol>
+      <li>Being born and raised in the Midwest in a small town in the United States of America in the late 20th century.</li>
+      <li>Becoming an engineer.</li>
+      <li>Becoming a musician.</li>
+      <li>Getting married.</li>
+      <li>Having children.</li>
+    </ol>
+  </div>
 
-                <dt>How do I state Joe's Prime Directive</dt>
-                <dd>Reduce suffering.</dd>
+  <div class="qa">
+    <p class="q">What do I believe about human nature?</p>
+    <ol>
+      <li>Human behavior starts with ideas. Good ideas lead to the reduction of suffering. Bad ideas lead toward the increase of suffering.</li>
+      <li>Human beings are made for cooperation. To defect against another human being is to reject the core value of human nature.</li>
+      <li>All humans seek the good.</li>
+      <li>When humans are seen to act wrongly, that is to increase suffering, it is because they have wrong ideas.</li>
+    </ol>
+  </div>
 
-                <dt>How do I define the word "suffering"?</dt>
-                <dd>Sense 1. The pain of living.</dd>
-                <dd>
-                    Sense 2. The abstraction of physical pain to include
-                    emotional and mental.
-                </dd>
-                <dd>
-                    Sense 3. The feeling of not accepting things as they are.
-                </dd>
-                <dd>
-                    Sense 4. The feeling I get when I have something I don't
-                    want or the similar feeling I get when I want something I
-                    don't have.
-                </dd>
+  <div class="qa">
+    <p class="q">How do I want to be remembered?</p>
+    <p>In whatever way that helps the living suffer less.</p>
+  </div>
 
-                <dt>How do I describe my idea of suffering?</dt>
-                <dd>
-                    The feeling that goes with pain in body, heart, or mind.
-                </dd>                
+  <div class="qa">
+    <p class="q">Why do I discount all posthumous legacy?</p>
+    <p>The dead cannot suffer. Suffering is for the living. Let the living decide how best to remember the dead.</p>
+  </div>
 
-                <dt>What is my idea of understanding?</dt>
-                <dd>
-                    The mental equivalent of being close enough to a statue to
-                    be able to describe it well in your own words. The mental
-                    idea is the statue. Your understanding is your detailed
-                    description of it.
-                </dd>
+  <div class="qa">
+    <p class="q">What injustice do I focus upon?</p>
+    <p>The injustice toward women and girls perpetrated because of the patriarchy.</p>
+  </div>
 
-                <dt>How do I imagine the idea of “idea”?</dt>
-                <dd>
-                    As a statue in a plaza which can be seen from many
-                    different, literal, points of view.
-                </dd>
+  <div class="qa">
+    <p class="q">How do I understand the patriarchy?</p>
+    <p>The worldwide, oppressive system of beliefs, customs, and institutions that systematically give power to men at the expense of women. It is baked into all aspects of life.</p>
+  </div>
 
-                <dt>How do I imagine the idea of “point of view”?</dt>
-                <dd>
-                    One of the places someone is standing while looking at the
-                    statue we call “idea”.
-                </dd>
+  <div class="qa">
+    <p class="q">What do I believe is broken and needs fixing?</p>
+    <ol>
+      <li>Laws and rules that propagate the patriarchy and the suffering it causes.</li>
+      <li>Beliefs and attitudes that propagate the patriarchy and the suffering it causes.</li>
+    </ol>
+  </div>
 
-                <dt>
-                    How do I imagine the idea of the word “point” in the phrase,
-                    “she was making a point”?
-                </dt>
-                <dd>
-                    A person standing at a particular point of view points their
-                    finger at a feature of the statue we call “idea” while they
-                    are talking to describe it. Making a point is visualized as
-                    pointing with a finger.
-                </dd>
+  <div class="qa">
+    <p class="q">What do I believe that most people around me don't?</p>
+    <p>That nobody should bring another child into the world.</p>
+  </div>
 
-                <dt>Why all this metaphor about a statue?</dt>
-                <dd>
-                    I have a vague hypothesis that this is the clearest, most
-                    direct way to understand concepts.
-                </dd>
+  <div class="qa">
+    <p class="q">Why do I hold this antinatalist belief?</p>
+    <ol>
+      <li>I oppose suffering.</li>
+      <li>Birth guarantees suffering.</li>
+      <li>Nobody ever consented to being born.</li>
+    </ol>
+  </div>
 
-                <dt>How do I believe I can have good relationships?</dt>
-                <dd>Care enough to work to mutual understanding.</dd>
+  <div class="qa">
+    <p class="q">What truth do I feel compelled to speak, even if it's uncomfortable?</p>
+    <p>Even the oppressor deserves compassion, for they act because of wrong reasoning.</p>
+  </div>
 
-                <dt>How do I define "mutual understanding"?</dt>
-                <dd>Two people who can say in their own words what the other one is thinking and feeling and why.</dd>
+  <div class="qa">
+    <p class="q">Do I believe antinatalism is viable?</p>
+    <p>No way. It is a pipe dream. Humans will continue to increase in population for the foreseeable future.</p>
+  </div>
 
-                <dt>What is the key to good judgment?</dt>
-                <dd>Achieve understanding before you even think of judging.</dd>
+  <div class="qa">
+    <p class="q">How do I want to spend my time?</p>
+    <ol>
+      <li>Caring.</li>
+      <li>Thinking.</li>
+      <li>Creating.</li>
+      <li>Working.</li>
+      <li>Playing.</li>
+    </ol>
+  </div>
 
-                <dt>What is the most common cause of bad judgment?</dt>
-                <dd>Judging before one understands.</dd>
+  <div class="qa">
+    <p class="q">What do I refuse to tolerate in my own life?</p>
+    <p>Unfairness. Moral inequality.</p>
+  </div>
 
-                <dt>How do I know when I understand someone else?</dt>
-                <dd>
-                    They tell me what I say is complete and correct. They might
-                    say “exactly”. They might say, “you’ve got it”.
-                </dd>
+  <div class="qa">
+    <p class="q">What habits guide my daily decisions?</p>
+    <ol>
+      <li>Doing the thing.</li>
+      <li>Reading, especially about the wisdom traditions such as Stoicism and Buddhism.</li>
+      <li>Reflecting on myself.</li>
+      <li>Reflecting on others.</li>
+      <li>Caring about others.</li>
+      <li>Caring for others.</li>
+    </ol>
+  </div>
 
-                <dt>Why do I put questions like those below at the bottom of the page?</dt>
-                <dd>They are the least important answers.</dd>
+  <div class="qa">
+    <p class="q">What does success mean to me?</p>
+    <p>Reducing suffering in the world.</p>
+  </div>
 
-                <dt>Who is my audience?</dt>
-                <dd>You.</dd>
+  <div class="qa">
+    <p class="q">What do I owe other people?</p>
+    <p>Justice. Respect. Dignity. Compassion.</p>
+  </div>
 
-                <dt>Who is my audience stated more fully?</dt>
-                <dd>All humans, but especially the following. Myself. My wife. My two kids. My extended family. My friends. My acquaintances. My neighbors. My fellow citizens. Anglophones. </dd>
+  <div class="qa">
+    <p class="q">What do they owe me?</p>
+    <p>The same.</p>
+  </div>
 
+  <div class="qa">
+    <p class="q">How should people treat one another?</p>
+    <ol>
+      <li>As individuals.</li>
+      <li>As moral equals, no matter their social status, gender, race, religion, or any other identity.</li>
+    </ol>
+  </div>
 
-                <dt>How do I identify?</dt>
-                <dd>Individual member of the human population.</dd>
+  <div class="qa">
+    <p class="q">What kind of world do I want to live in?</p>
+    <p>A world where we all treat each other like we treat family.</p>
+  </div>
 
-                <dt>Where do I live, politically?</dt>
-                <dd>
-                    State of Florida. United States of America. North America. Western Hemisphere. Northern Hemisphere. Western World. 
-                </dd>
+  <div class="qa">
+    <p class="q">What problem do I feel uniquely positioned to solve?</p>
+    <p>Lack of moral clarity.</p>
+  </div>
 
-                <dt>Where do I live, physically?</dt>
-                <dd>
-                    House. Lot. Peninsula. American supercontinent. Planet Earth. Planet Earth's solar system. Orion Arm of Milky Way galaxy. Milky Way galaxy. Virgo Supercluster. Laniakea Supercluster. The Universe.
-                </dd>
+  <div class="qa">
+    <p class="q">What would I do even if no one paid me or praised me for it?</p>
+    <p>Write.</p>
+  </div>
 
-                <dt>When did I first conceive this website?</dt>
-                <dd>Monday, February 23, 2026 at 10:45 PM.</dd>
+  <div class="qa">
+    <p class="q">What would I regret not having said or done?</p>
+    <p>I regret moments where I do not stand up to injustice in real time.</p>
+  </div>
 
-                <dt>Where is this website published?</dt>
-                <dd>https://joelegner.github.io</dd>
-              </dl>
-        </main>
-    </body>
+  <div class="qa">
+    <p class="q">If I could leave one idea behind for future generations, what would it be?</p>
+    <p>Adopt the maxim, "reduce suffering."</p>
+  </div>
+
+  <div class="qa">
+    <p class="q">What do I want to build, create, or change?</p>
+    <p>A keystone narrative that unites the left and right side of politics like the left and right side of an arch.</p>
+  </div>
+
+  <div class="qa">
+    <p class="q">What do I mean by the term "narrative"?</p>
+    <p>A system of stories that paint one picture.</p>
+  </div>
+
+  <div class="qa">
+    <p class="q">Why do I want to construct a keystone narrative?</p>
+    <p>To prevent collapse.</p>
+  </div>
+
+  <div class="qa">
+    <p class="q">What does the world look like if my beliefs win out?</p>
+    <p>A world where people cooperate to solve problems and reduce suffering to the minimum possible given the circumstances.</p>
+  </div>
+
+  <div class="qa">
+    <p class="q">What am I willing to sacrifice for what I believe in?</p>
+    <p>My life. My fortune. My sacred honor.</p>
+  </div>
+
+  <div class="qa">
+    <p class="q">What can the reader do to help?</p>
+    <p>Find contradictions in this manifesto and help me improve it.</p>
+  </div>
+
+  <div class="qa">
+    <p class="q">When was this last updated?</p>
+    <p>Saturday, April 25, 2026 at 5:14 PM.</p>
+  </div>
+
+</div>
+</body>
 </html>
